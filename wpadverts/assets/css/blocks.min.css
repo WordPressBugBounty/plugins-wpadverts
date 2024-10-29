@@ -2325,6 +2325,9 @@
 .atw-border-dashed {
         border-style: dashed;
 }
+.atw-border-none {
+        border-style: none;
+}
 .atw-border-form-gray-100 {
         --tw-border-opacity: 1;
         border-color: rgba(var(--wpa-color-gray-100), var(--tw-border-opacity));

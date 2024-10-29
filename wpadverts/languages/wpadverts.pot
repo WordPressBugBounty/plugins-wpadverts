@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the WP Adverts package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Adverts 2.1.6\n"
+"Project-Id-Version: WP Adverts 2.1.7\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpadverts\n"
-"POT-Creation-Date: 2024-08-19 10:52:41+00:00\n"
+"POT-Creation-Date: 2024-10-29 14:04:32+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,7 +43,7 @@ msgstr ""
 #: addons/payments/admin/payment-history-list.php:80
 #: addons/payments/includes/admin-pages.php:714 includes/defaults.php:66
 #: includes/defaults.php:336 includes/defaults.php:346
-#: includes/functions-blocks.php:943 includes/functions.php:2742
+#: includes/functions-blocks.php:944 includes/functions.php:2746
 msgid "Email"
 msgstr ""
 
@@ -126,7 +126,7 @@ msgstr ""
 #: addons/contact-form/contact-form.php:80
 #: addons/contact-form/includes/class-block-details.php:98
 #: addons/contact-form/includes/class-block-details.php:119
-#: includes/functions-blocks.php:948 includes/functions.php:2737
+#: includes/functions-blocks.php:949 includes/functions.php:2741
 msgid "Phone"
 msgstr ""
 
@@ -2077,14 +2077,14 @@ msgid "Preview Listing"
 msgstr ""
 
 #: blocks/publish/class-publish-engine.php:390
-#: includes/class-shortcode-adverts-add.php:346 includes/functions.php:3131
+#: includes/class-shortcode-adverts-add.php:346 includes/functions.php:3135
 msgid ""
 "Could not verify the request checksum. Please refresh the page and try "
 "again."
 msgstr ""
 
 #: blocks/publish/class-publish-engine.php:392
-#: includes/class-shortcode-adverts-add.php:348 includes/functions.php:3133
+#: includes/class-shortcode-adverts-add.php:348 includes/functions.php:3137
 msgid "Checksum does not exist. Please refresh the page and try again."
 msgstr ""
 
@@ -2176,21 +2176,21 @@ msgstr ""
 msgid "Contact Phone"
 msgstr ""
 
-#: blocks/single-gallery/templates/gallery.php:28
+#: blocks/single-gallery/templates/gallery.php:33
 msgid "Your browser cannot play this video."
 msgstr ""
 
-#: blocks/single-gallery/templates/gallery.php:29
+#: blocks/single-gallery/templates/gallery.php:34
 msgid ""
 "Please use a different browser or download the video and play on your "
 "device."
 msgstr ""
 
-#: blocks/single-gallery/templates/gallery.php:42
+#: blocks/single-gallery/templates/gallery.php:47
 msgid "File: "
 msgstr ""
 
-#: blocks/single-gallery/templates/gallery.php:46
+#: blocks/single-gallery/templates/gallery.php:51
 #: includes/class-gallery-helper.php:217 includes/class-gallery-helper.php:361
 #: includes/gallery.php:349
 msgid "Download"
@@ -2503,31 +2503,35 @@ msgstr ""
 msgid "Could not write file %s"
 msgstr ""
 
-#: includes/ajax.php:999 includes/ajax.php:1060
+#: includes/ajax.php:1000
+msgid "Invalid Nonce."
+msgstr ""
+
+#: includes/ajax.php:1008 includes/ajax.php:1069
 msgid "Post with given ID does not exist."
 msgstr ""
 
-#: includes/ajax.php:1198
+#: includes/ajax.php:1207
 msgid "Post you are trying to delete does not exist."
 msgstr ""
 
-#: includes/ajax.php:1206
+#: includes/ajax.php:1215
 msgid "Post you are trying to delete does not belong to you."
 msgstr ""
 
-#: includes/ajax.php:1214 includes/functions.php:3272
+#: includes/ajax.php:1223 includes/functions.php:3276
 msgid "This post is not an Advert."
 msgstr ""
 
-#: includes/ajax.php:1245
+#: includes/ajax.php:1254
 msgid "Advert <strong>%s</strong> deleted."
 msgstr ""
 
-#: includes/ajax.php:1260 includes/ajax.php:1307
+#: includes/ajax.php:1269 includes/ajax.php:1316
 msgid "You cannot access this page."
 msgstr ""
 
-#: includes/ajax.php:1269 includes/ajax.php:1316
+#: includes/ajax.php:1278 includes/ajax.php:1325
 msgid "Invalid param name."
 msgstr ""
 
@@ -3197,7 +3201,7 @@ msgstr ""
 msgid "Show Contact Info"
 msgstr ""
 
-#: includes/functions-blocks.php:924
+#: includes/functions-blocks.php:925
 msgid "Reveal Contact Info"
 msgstr ""
 
@@ -3209,219 +3213,219 @@ msgstr ""
 msgid "Category: %s"
 msgstr ""
 
-#: includes/functions.php:1762
+#: includes/functions.php:1766
 msgid ""
 "You are posting as <strong>%1$s</strong>. <br/>If you want to use a "
 "different account, please <a href=\"%2$s\">logout</a>."
 msgstr ""
 
-#: includes/functions.php:1767
+#: includes/functions.php:1771
 msgid ""
 "Create an account for me so I can manage all my ads from one place "
 "(password will be emailed to you) or <a href=\"%s\">Sign In</a>"
 msgstr ""
 
-#: includes/functions.php:2055
+#: includes/functions.php:2059
 msgid "Redirecting"
 msgstr ""
 
-#: includes/functions.php:2056
+#: includes/functions.php:2060
 msgid ""
 "Your are being redirected to Edit page. <a href=\"%s\">Click here</a> if it "
 "is taking to long. "
 msgstr ""
 
-#: includes/functions.php:2231
+#: includes/functions.php:2235
 msgid "US Dollars"
 msgstr ""
 
-#: includes/functions.php:2232
+#: includes/functions.php:2236
 msgid "Euros"
 msgstr ""
 
-#: includes/functions.php:2233
+#: includes/functions.php:2237
 msgid "Pounds Sterling"
 msgstr ""
 
-#: includes/functions.php:2234
+#: includes/functions.php:2238
 msgid "Australian Dollars"
 msgstr ""
 
-#: includes/functions.php:2235
+#: includes/functions.php:2239
 msgid "Brazilian Real"
 msgstr ""
 
-#: includes/functions.php:2236
+#: includes/functions.php:2240
 msgid "Canadian Dollars"
 msgstr ""
 
-#: includes/functions.php:2237
+#: includes/functions.php:2241
 msgid "Czech Koruna"
 msgstr ""
 
-#: includes/functions.php:2238
+#: includes/functions.php:2242
 msgid "Danish Krone"
 msgstr ""
 
-#: includes/functions.php:2239
+#: includes/functions.php:2243
 msgid "Egyptian Pound"
 msgstr ""
 
-#: includes/functions.php:2240
+#: includes/functions.php:2244
 msgid "Hong Kong Dollar"
 msgstr ""
 
-#: includes/functions.php:2241
+#: includes/functions.php:2245
 msgid "Hungarian Forint"
 msgstr ""
 
-#: includes/functions.php:2242
+#: includes/functions.php:2246
 msgid "Israeli Shekel"
 msgstr ""
 
-#: includes/functions.php:2243
+#: includes/functions.php:2247
 msgid "Indian Rupees"
 msgstr ""
 
-#: includes/functions.php:2244
+#: includes/functions.php:2248
 msgid "Japanese Yen"
 msgstr ""
 
-#: includes/functions.php:2245
+#: includes/functions.php:2249
 msgid "Kuwaiti Dinar"
 msgstr ""
 
-#: includes/functions.php:2246
+#: includes/functions.php:2250
 msgid "Malaysian Ringgits"
 msgstr ""
 
-#: includes/functions.php:2247
+#: includes/functions.php:2251
 msgid "Mexican Peso"
 msgstr ""
 
-#: includes/functions.php:2248
+#: includes/functions.php:2252
 msgid "Nigerian Naira"
 msgstr ""
 
-#: includes/functions.php:2249
+#: includes/functions.php:2253
 msgid "New Zealand Dollar"
 msgstr ""
 
-#: includes/functions.php:2250
+#: includes/functions.php:2254
 msgid "Norwegian Krone"
 msgstr ""
 
-#: includes/functions.php:2251
+#: includes/functions.php:2255
 msgid "Philippine Pesos"
 msgstr ""
 
-#: includes/functions.php:2252
+#: includes/functions.php:2256
 msgid "Polish Zloty"
 msgstr ""
 
-#: includes/functions.php:2253
+#: includes/functions.php:2257
 msgid "Singapore Dollar"
 msgstr ""
 
-#: includes/functions.php:2254
+#: includes/functions.php:2258
 msgid "Swedish Krona"
 msgstr ""
 
-#: includes/functions.php:2255
+#: includes/functions.php:2259
 msgid "Swiss Franc"
 msgstr ""
 
-#: includes/functions.php:2256
+#: includes/functions.php:2260
 msgid "Taiwan New Dollars"
 msgstr ""
 
-#: includes/functions.php:2257
+#: includes/functions.php:2261
 msgid "Thai Baht"
 msgstr ""
 
-#: includes/functions.php:2258
+#: includes/functions.php:2262
 msgid "Turkish Lira"
 msgstr ""
 
-#: includes/functions.php:2259
+#: includes/functions.php:2263
 msgid "Iranian Rial"
 msgstr ""
 
-#: includes/functions.php:2260
+#: includes/functions.php:2264
 msgid "Russian Rubles"
 msgstr ""
 
-#: includes/functions.php:2261
+#: includes/functions.php:2265
 msgid "Saudi Riyal"
 msgstr ""
 
-#: includes/functions.php:2262
+#: includes/functions.php:2266
 msgid "South African Rand"
 msgstr ""
 
-#: includes/functions.php:2263
+#: includes/functions.php:2267
 msgid "Sri Lankan Rupees"
 msgstr ""
 
-#: includes/functions.php:2264
+#: includes/functions.php:2268
 msgid "UAE Dirham"
 msgstr ""
 
-#: includes/functions.php:2265
+#: includes/functions.php:2269
 msgid "Ukrainian hryvnia"
 msgstr ""
 
-#: includes/functions.php:2266
+#: includes/functions.php:2270
 msgid "Qatari Riyal"
 msgstr ""
 
-#: includes/functions.php:2709
+#: includes/functions.php:2713
 msgid "Show Contact Information"
 msgstr ""
 
-#: includes/functions.php:2938
+#: includes/functions.php:2942
 msgid "Pending Ads"
 msgstr ""
 
-#: includes/functions.php:3005
+#: includes/functions.php:3009
 msgid ""
 "<strong>Visible To Administrators Only</strong><br/>This Ad expired, but as "
 "a user with <em>%s</em> capability you can see this page."
 msgstr ""
 
-#: includes/functions.php:3010
+#: includes/functions.php:3014
 msgid ""
 "<strong>This Ad expired and is no longer available.</strong><br/>See our "
 "other active <a href=\"%s\">classified ads</a>."
 msgstr ""
 
-#: includes/functions.php:3189
+#: includes/functions.php:3193
 msgid ""
 "It seems you are not the post %d author. Please refresh the page and try "
 "again."
 msgstr ""
 
-#: includes/functions.php:3197
+#: includes/functions.php:3201
 msgid "Post ID not provided."
 msgstr ""
 
-#: includes/functions.php:3227
+#: includes/functions.php:3231
 msgid "This post does not exist."
 msgstr ""
 
-#: includes/functions.php:3246
+#: includes/functions.php:3250
 msgid "This post cannot be edited by annonymous users."
 msgstr ""
 
-#: includes/functions.php:3254
+#: includes/functions.php:3258
 msgid "This post does not belong to you."
 msgstr ""
 
-#: includes/functions.php:4044
+#: includes/functions.php:4048
 msgid "Cannot verify config nonce. <a href=''>Retry</a>"
 msgstr ""
 
-#: includes/functions.php:4073
+#: includes/functions.php:4077
 msgid "Create new types with <strong>Multiverse</strong> extension."
 msgstr ""
 
