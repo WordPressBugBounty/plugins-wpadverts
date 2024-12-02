@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the WP Adverts package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Adverts 2.1.8\n"
+"Project-Id-Version: WP Adverts 2.2.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpadverts\n"
-"POT-Creation-Date: 2024-11-19 11:47:58+00:00\n"
+"POT-Creation-Date: 2024-12-02 10:39:59+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,7 +43,7 @@ msgstr ""
 #: addons/payments/admin/payment-history-list.php:80
 #: addons/payments/includes/admin-pages.php:714 includes/defaults.php:66
 #: includes/defaults.php:336 includes/defaults.php:346
-#: includes/functions-blocks.php:944 includes/functions.php:2746
+#: includes/functions-blocks.php:956 includes/functions.php:2751
 msgid "Email"
 msgstr ""
 
@@ -71,6 +71,7 @@ msgstr ""
 #: addons/contact-form/contact-form.php:156
 #: addons/contact-form/contact-form.php:516
 #: addons/contact-form/includes/admin-pages.php:62
+#: addons/contact-form/includes/class-block-details.php:309
 #: addons/core/includes/admin-pages.php:91
 #: addons/core/includes/admin-pages.php:171
 #: addons/emails/includes/class-emails-admin.php:85
@@ -106,7 +107,7 @@ msgid ""
 msgstr ""
 
 #: addons/contact-form/admin/options.php:15
-#: addons/contact-form/includes/class-block-details.php:45
+#: addons/contact-form/includes/class-block-details.php:49
 #: addons/contact-form/includes/class-emails-integration.php:44
 #: includes/admin-pages.php:146
 msgid "Contact Form"
@@ -114,8 +115,8 @@ msgstr ""
 
 #: addons/contact-form/contact-form.php:61
 #: addons/contact-form/contact-form.php:118
-#: addons/contact-form/includes/class-block-details.php:36
-#: addons/contact-form/includes/class-block-details.php:168
+#: addons/contact-form/includes/class-block-details.php:40
+#: addons/contact-form/includes/class-block-details.php:234
 msgid "Send Message"
 msgstr ""
 
@@ -124,14 +125,15 @@ msgid "show phone"
 msgstr ""
 
 #: addons/contact-form/contact-form.php:80
-#: addons/contact-form/includes/class-block-details.php:98
-#: addons/contact-form/includes/class-block-details.php:119
-#: includes/functions-blocks.php:949 includes/functions.php:2741
+#: addons/contact-form/includes/class-block-details.php:102
+#: addons/contact-form/includes/class-block-details.php:123
+#: includes/functions-blocks.php:961 includes/functions.php:2746
 msgid "Phone"
 msgstr ""
 
 #: addons/contact-form/contact-form.php:149
 #: addons/contact-form/contact-form.php:507
+#: addons/contact-form/includes/class-block-details.php:302
 msgid "Your message has been sent."
 msgstr ""
 
@@ -168,18 +170,14 @@ msgstr ""
 msgid "From Email"
 msgstr ""
 
-#: addons/contact-form/includes/class-block-details.php:85
+#: addons/contact-form/includes/class-block-details.php:89
 msgid ""
 "Call <span data-ph1=\"%s\" class=\"wpadverts-phone\">%s...</span> <a "
 "href=\"#\" class=\"wpadverts-phone-reveal\">show phone</a>"
 msgstr ""
 
-#: addons/contact-form/includes/class-block-details.php:106
+#: addons/contact-form/includes/class-block-details.php:110
 msgid "Call <span data-ph1=\"%s\" class=\"wpadverts-phone\">%s</span>"
-msgstr ""
-
-#: addons/contact-form/includes/class-block-details.php:186
-msgid "Contact Seller"
 msgstr ""
 
 #: addons/contact-form/includes/class-emails-integration.php:69
@@ -267,7 +265,7 @@ msgstr ""
 #: addons/core/admin/types-icon-picker.php:21 blocks/manage/index.php:52
 #: includes/admin-post-type.php:310 includes/class-updates-manager.php:333
 #: includes/gallery.php:514 includes/gallery.php:592 templates/manage.php:70
-#: wpadverts.php:394
+#: wpadverts.php:395
 msgid "Cancel"
 msgstr ""
 
@@ -1202,7 +1200,7 @@ msgid "Pending Payment"
 msgstr ""
 
 #: addons/payments/includes/admin-pages.php:685
-#: blocks/manage/class-manage-engine.php:314
+#: blocks/manage/class-manage-engine.php:316
 #: includes/class-moderate-admin.php:7 includes/class-types-admin.php:114
 #: includes/class-types-admin.php:149 includes/class-updates-manager.php:332
 #: templates/manage-edit.php:74
@@ -1855,12 +1853,16 @@ msgid ""
 "full-width page template."
 msgstr ""
 
-#: blocks/class-block-patterns.php:28
+#: blocks/class-block-patterns.php:28 blocks/class-block-patterns.php:40
 msgid "Classifieds details"
 msgstr ""
 
 #: blocks/class-block-patterns.php:29
 msgid "Default classifieds details page"
+msgstr ""
+
+#: blocks/class-block-patterns.php:41
+msgid "Classifieds details page with a sidebar"
 msgstr ""
 
 #: blocks/details/index.php:96 blocks/single-data-table/index.php:255
@@ -1883,8 +1885,8 @@ msgstr ""
 
 #: blocks/list/index.php:154 blocks/list/index.php:177
 #: blocks/list/index.php:178 blocks/manage/class-manage-engine.php:26
-#: blocks/manage/class-manage-engine.php:108
-#: blocks/manage/class-manage-engine.php:109 blocks/search/index.php:126
+#: blocks/manage/class-manage-engine.php:109
+#: blocks/manage/class-manage-engine.php:110 blocks/search/index.php:126
 #: blocks/search/index.php:149 blocks/search/index.php:150
 #: includes/class-widget-ads.php:128 includes/shortcodes.php:96
 #: includes/shortcodes.php:119 includes/shortcodes.php:120
@@ -1893,7 +1895,7 @@ msgstr ""
 
 #: blocks/list/index.php:156 blocks/list/index.php:178
 #: blocks/manage/class-manage-engine.php:28
-#: blocks/manage/class-manage-engine.php:109 blocks/search/index.php:128
+#: blocks/manage/class-manage-engine.php:110 blocks/search/index.php:128
 #: blocks/search/index.php:150 includes/shortcodes.php:98
 #: includes/shortcodes.php:120
 msgid "Newest First"
@@ -1925,8 +1927,8 @@ msgid "From Z to A"
 msgstr ""
 
 #: blocks/list/index.php:178 blocks/list/index.php:208
-#: blocks/manage/class-manage-engine.php:109
-#: blocks/manage/class-manage-engine.php:139 blocks/search/index.php:150
+#: blocks/manage/class-manage-engine.php:110
+#: blocks/manage/class-manage-engine.php:140 blocks/search/index.php:150
 #: blocks/search/index.php:180 includes/shortcodes.php:120
 #: includes/shortcodes.php:150
 msgid "Sort By: %s - %s"
@@ -1944,7 +1946,7 @@ msgid "results found."
 msgstr ""
 
 #: blocks/list/templates/list.php:161
-#: blocks/manage/templates/manage-list.php:165 wpadverts.php:390
+#: blocks/manage/templates/manage-list.php:165 wpadverts.php:391
 msgid "No results found."
 msgstr ""
 
@@ -1966,43 +1968,43 @@ msgstr ""
 msgid "Register"
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:165
+#: blocks/manage/class-manage-engine.php:166
 msgid "Manage"
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:228 includes/shortcodes.php:414
+#: blocks/manage/class-manage-engine.php:230 includes/shortcodes.php:414
 #: includes/shortcodes.php:514
 msgid "Ad does not exist."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:236 includes/shortcodes.php:424
+#: blocks/manage/class-manage-engine.php:238 includes/shortcodes.php:424
 #: includes/shortcodes.php:524
 msgid "You do not own this Ad."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:246 includes/shortcodes.php:436
+#: blocks/manage/class-manage-engine.php:248 includes/shortcodes.php:436
 #: includes/shortcodes.php:536
 msgid "Incorrect post status [%s]."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:285 includes/shortcodes.php:477
+#: blocks/manage/class-manage-engine.php:287 includes/shortcodes.php:477
 msgid "Post has been updated."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:292 includes/shortcodes.php:484
+#: blocks/manage/class-manage-engine.php:294 includes/shortcodes.php:484
 msgid "Cannot update. There are errors in your form."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:330 includes/gallery.php:347
+#: blocks/manage/class-manage-engine.php:332 includes/gallery.php:347
 #: templates/manage.php:56
 msgid "View"
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:342
+#: blocks/manage/class-manage-engine.php:344
 msgid "Delete ..."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:376 templates/manage-edit.php:69
+#: blocks/manage/class-manage-engine.php:378 templates/manage-edit.php:69
 msgid ""
 "<strong>Important Note.</strong> After submitting changes your Ad will be "
 "held for moderation. It will become active again once the Administrator "
@@ -2029,7 +2031,7 @@ msgstr ""
 msgid "There was an error while deleting."
 msgstr ""
 
-#: blocks/manage/index.php:56 includes/gallery.php:644 wpadverts.php:392
+#: blocks/manage/index.php:56 includes/gallery.php:644 wpadverts.php:393
 msgid "Close"
 msgstr ""
 
@@ -2077,14 +2079,14 @@ msgid "Preview Listing"
 msgstr ""
 
 #: blocks/publish/class-publish-engine.php:390
-#: includes/class-shortcode-adverts-add.php:346 includes/functions.php:3135
+#: includes/class-shortcode-adverts-add.php:346 includes/functions.php:3140
 msgid ""
 "Could not verify the request checksum. Please refresh the page and try "
 "again."
 msgstr ""
 
 #: blocks/publish/class-publish-engine.php:392
-#: includes/class-shortcode-adverts-add.php:348 includes/functions.php:3137
+#: includes/class-shortcode-adverts-add.php:348 includes/functions.php:3142
 msgid "Checksum does not exist. Please refresh the page and try again."
 msgstr ""
 
@@ -2142,6 +2144,14 @@ msgstr ""
 
 #: blocks/publish/templates/publish-save.php:34
 msgid "Publish another Ad"
+msgstr ""
+
+#: blocks/single-author/templates/list.php:34
+msgid "copy"
+msgstr ""
+
+#: blocks/single-author/templates/list.php:35
+msgid "call"
 msgstr ""
 
 #: blocks/single-contact/index.php:74
@@ -2397,7 +2407,7 @@ msgstr ""
 msgid "%1$s %2$s, %3$s @ %4$s : %5$s"
 msgstr ""
 
-#: includes/admin-post-type.php:309 wpadverts.php:393 wpadverts.php:497
+#: includes/admin-post-type.php:309 wpadverts.php:394 wpadverts.php:498
 msgid "OK"
 msgstr ""
 
@@ -2519,7 +2529,7 @@ msgstr ""
 msgid "Post you are trying to delete does not belong to you."
 msgstr ""
 
-#: includes/ajax.php:1223 includes/functions.php:3276
+#: includes/ajax.php:1223 includes/functions.php:3281
 msgid "This post is not an Advert."
 msgstr ""
 
@@ -3186,22 +3196,30 @@ msgid "~ no title ~"
 msgstr ""
 
 #: includes/functions-blocks.php:805
+msgid "Builtin Templates"
+msgstr ""
+
+#: includes/functions-blocks.php:811
 msgid "Default Block Template"
 msgstr ""
 
-#: includes/functions-blocks.php:814
+#: includes/functions-blocks.php:816
+msgid "Template with a sidebar"
+msgstr ""
+
+#: includes/functions-blocks.php:826
 msgid "Draft Templates"
 msgstr ""
 
-#: includes/functions-blocks.php:828
+#: includes/functions-blocks.php:840
 msgid "WP Templates"
 msgstr ""
 
-#: includes/functions-blocks.php:912
+#: includes/functions-blocks.php:924
 msgid "Show Contact Info"
 msgstr ""
 
-#: includes/functions-blocks.php:925
+#: includes/functions-blocks.php:937
 msgid "Reveal Contact Info"
 msgstr ""
 
@@ -3213,219 +3231,219 @@ msgstr ""
 msgid "Category: %s"
 msgstr ""
 
-#: includes/functions.php:1766
+#: includes/functions.php:1771
 msgid ""
 "You are posting as <strong>%1$s</strong>. <br/>If you want to use a "
 "different account, please <a href=\"%2$s\">logout</a>."
 msgstr ""
 
-#: includes/functions.php:1771
+#: includes/functions.php:1776
 msgid ""
 "Create an account for me so I can manage all my ads from one place "
 "(password will be emailed to you) or <a href=\"%s\">Sign In</a>"
 msgstr ""
 
-#: includes/functions.php:2059
+#: includes/functions.php:2064
 msgid "Redirecting"
 msgstr ""
 
-#: includes/functions.php:2060
+#: includes/functions.php:2065
 msgid ""
 "Your are being redirected to Edit page. <a href=\"%s\">Click here</a> if it "
 "is taking to long. "
 msgstr ""
 
-#: includes/functions.php:2235
+#: includes/functions.php:2240
 msgid "US Dollars"
 msgstr ""
 
-#: includes/functions.php:2236
+#: includes/functions.php:2241
 msgid "Euros"
 msgstr ""
 
-#: includes/functions.php:2237
+#: includes/functions.php:2242
 msgid "Pounds Sterling"
 msgstr ""
 
-#: includes/functions.php:2238
+#: includes/functions.php:2243
 msgid "Australian Dollars"
 msgstr ""
 
-#: includes/functions.php:2239
+#: includes/functions.php:2244
 msgid "Brazilian Real"
 msgstr ""
 
-#: includes/functions.php:2240
+#: includes/functions.php:2245
 msgid "Canadian Dollars"
 msgstr ""
 
-#: includes/functions.php:2241
+#: includes/functions.php:2246
 msgid "Czech Koruna"
 msgstr ""
 
-#: includes/functions.php:2242
+#: includes/functions.php:2247
 msgid "Danish Krone"
 msgstr ""
 
-#: includes/functions.php:2243
+#: includes/functions.php:2248
 msgid "Egyptian Pound"
 msgstr ""
 
-#: includes/functions.php:2244
+#: includes/functions.php:2249
 msgid "Hong Kong Dollar"
 msgstr ""
 
-#: includes/functions.php:2245
+#: includes/functions.php:2250
 msgid "Hungarian Forint"
 msgstr ""
 
-#: includes/functions.php:2246
+#: includes/functions.php:2251
 msgid "Israeli Shekel"
 msgstr ""
 
-#: includes/functions.php:2247
+#: includes/functions.php:2252
 msgid "Indian Rupees"
 msgstr ""
 
-#: includes/functions.php:2248
+#: includes/functions.php:2253
 msgid "Japanese Yen"
 msgstr ""
 
-#: includes/functions.php:2249
+#: includes/functions.php:2254
 msgid "Kuwaiti Dinar"
 msgstr ""
 
-#: includes/functions.php:2250
+#: includes/functions.php:2255
 msgid "Malaysian Ringgits"
 msgstr ""
 
-#: includes/functions.php:2251
+#: includes/functions.php:2256
 msgid "Mexican Peso"
 msgstr ""
 
-#: includes/functions.php:2252
+#: includes/functions.php:2257
 msgid "Nigerian Naira"
 msgstr ""
 
-#: includes/functions.php:2253
+#: includes/functions.php:2258
 msgid "New Zealand Dollar"
 msgstr ""
 
-#: includes/functions.php:2254
+#: includes/functions.php:2259
 msgid "Norwegian Krone"
 msgstr ""
 
-#: includes/functions.php:2255
+#: includes/functions.php:2260
 msgid "Philippine Pesos"
 msgstr ""
 
-#: includes/functions.php:2256
+#: includes/functions.php:2261
 msgid "Polish Zloty"
 msgstr ""
 
-#: includes/functions.php:2257
+#: includes/functions.php:2262
 msgid "Singapore Dollar"
 msgstr ""
 
-#: includes/functions.php:2258
+#: includes/functions.php:2263
 msgid "Swedish Krona"
 msgstr ""
 
-#: includes/functions.php:2259
+#: includes/functions.php:2264
 msgid "Swiss Franc"
 msgstr ""
 
-#: includes/functions.php:2260
+#: includes/functions.php:2265
 msgid "Taiwan New Dollars"
 msgstr ""
 
-#: includes/functions.php:2261
+#: includes/functions.php:2266
 msgid "Thai Baht"
 msgstr ""
 
-#: includes/functions.php:2262
+#: includes/functions.php:2267
 msgid "Turkish Lira"
 msgstr ""
 
-#: includes/functions.php:2263
+#: includes/functions.php:2268
 msgid "Iranian Rial"
 msgstr ""
 
-#: includes/functions.php:2264
+#: includes/functions.php:2269
 msgid "Russian Rubles"
 msgstr ""
 
-#: includes/functions.php:2265
+#: includes/functions.php:2270
 msgid "Saudi Riyal"
 msgstr ""
 
-#: includes/functions.php:2266
+#: includes/functions.php:2271
 msgid "South African Rand"
 msgstr ""
 
-#: includes/functions.php:2267
+#: includes/functions.php:2272
 msgid "Sri Lankan Rupees"
 msgstr ""
 
-#: includes/functions.php:2268
+#: includes/functions.php:2273
 msgid "UAE Dirham"
 msgstr ""
 
-#: includes/functions.php:2269
+#: includes/functions.php:2274
 msgid "Ukrainian hryvnia"
 msgstr ""
 
-#: includes/functions.php:2270
+#: includes/functions.php:2275
 msgid "Qatari Riyal"
 msgstr ""
 
-#: includes/functions.php:2713
+#: includes/functions.php:2718
 msgid "Show Contact Information"
 msgstr ""
 
-#: includes/functions.php:2942
+#: includes/functions.php:2947
 msgid "Pending Ads"
 msgstr ""
 
-#: includes/functions.php:3009
+#: includes/functions.php:3014
 msgid ""
 "<strong>Visible To Administrators Only</strong><br/>This Ad expired, but as "
 "a user with <em>%s</em> capability you can see this page."
 msgstr ""
 
-#: includes/functions.php:3014
+#: includes/functions.php:3019
 msgid ""
 "<strong>This Ad expired and is no longer available.</strong><br/>See our "
 "other active <a href=\"%s\">classified ads</a>."
 msgstr ""
 
-#: includes/functions.php:3193
+#: includes/functions.php:3198
 msgid ""
 "It seems you are not the post %d author. Please refresh the page and try "
 "again."
 msgstr ""
 
-#: includes/functions.php:3201
+#: includes/functions.php:3206
 msgid "Post ID not provided."
 msgstr ""
 
-#: includes/functions.php:3231
+#: includes/functions.php:3236
 msgid "This post does not exist."
 msgstr ""
 
-#: includes/functions.php:3250
+#: includes/functions.php:3255
 msgid "This post cannot be edited by annonymous users."
 msgstr ""
 
-#: includes/functions.php:3258
+#: includes/functions.php:3263
 msgid "This post does not belong to you."
 msgstr ""
 
-#: includes/functions.php:4048
+#: includes/functions.php:4053
 msgid "Cannot verify config nonce. <a href=''>Retry</a>"
 msgstr ""
 
-#: includes/functions.php:4077
+#: includes/functions.php:4082
 msgid "Create new types with <strong>Multiverse</strong> extension."
 msgstr ""
 
@@ -3489,7 +3507,7 @@ msgid ""
 "video cover."
 msgstr ""
 
-#: includes/gallery.php:503 wpadverts.php:403
+#: includes/gallery.php:503 wpadverts.php:404
 msgid "Edit Image"
 msgstr ""
 
@@ -3757,51 +3775,51 @@ msgstr ""
 msgid "No Classifieds found in the Trash"
 msgstr ""
 
-#: wpadverts.php:276
+#: wpadverts.php:277
 msgid "Categories"
 msgstr ""
 
-#: wpadverts.php:385
+#: wpadverts.php:386
 msgid "Select options ..."
 msgstr ""
 
-#: wpadverts.php:391
+#: wpadverts.php:392
 msgid "Open"
 msgstr ""
 
-#: wpadverts.php:395
+#: wpadverts.php:396
 msgid "Selected"
 msgstr ""
 
-#: wpadverts.php:396
+#: wpadverts.php:397
 msgid "Cannot select more than %s items."
 msgstr ""
 
-#: wpadverts.php:397
+#: wpadverts.php:398
 msgid "Type in the box above to see suggestions ..."
 msgstr ""
 
-#: wpadverts.php:398
+#: wpadverts.php:399
 msgid "start typing here ..."
 msgstr ""
 
-#: wpadverts.php:404
+#: wpadverts.php:405
 msgid "Delete Image"
 msgstr ""
 
-#: wpadverts.php:405
+#: wpadverts.php:406
 msgid "View Full Image"
 msgstr ""
 
-#: wpadverts.php:406
+#: wpadverts.php:407
 msgid "Main"
 msgstr ""
 
-#: wpadverts.php:552
+#: wpadverts.php:553
 msgid "Are you sure you want to reset this settings to defaults?"
 msgstr ""
 
-#: wpadverts.php:670
+#: wpadverts.php:671
 msgid "Module activated successfully."
 msgstr ""
 
@@ -3876,12 +3894,12 @@ msgctxt "classified"
 msgid "Add New"
 msgstr ""
 
-#: wpadverts.php:274
+#: wpadverts.php:275
 msgctxt "taxonomy general name"
 msgid "Adverts Categories"
 msgstr ""
 
-#: wpadverts.php:275
+#: wpadverts.php:276
 msgctxt "taxonomy singular name"
 msgid "Advert Category"
 msgstr ""

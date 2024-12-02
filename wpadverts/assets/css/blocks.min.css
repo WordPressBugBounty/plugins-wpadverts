@@ -3225,6 +3225,12 @@
         .md\:atw-flex-row-reverse {
                 flex-direction: row-reverse;
         }
+        .md\:atw-flex-col {
+                flex-direction: column;
+        }
+        .md\:atw-flex-wrap {
+                flex-wrap: wrap;
+        }
         .md\:atw-justify-between {
                 justify-content: space-between;
         }
@@ -3245,6 +3251,10 @@
         }
         .md\:atw-p-3 {
                 padding: 0.75rem;
+        }
+        .md\:atw-px-0 {
+                padding-left: 0px;
+                padding-right: 0px;
         }
         .md\:atw-px-1 {
                 padding-left: 0.25rem;
