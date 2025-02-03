@@ -275,6 +275,7 @@
     .wpadverts-form input[type=text].wpadverts-autocomplete,
     .wpadverts-form .adverts-multiselect-holder input[type=text] {
         box-sizing: border-box;
+        cursor: pointer;
         -webkit-appearance: none;
            -moz-appearance: none;
                 appearance: none;
@@ -2246,6 +2247,9 @@
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
+}
+.atw-break-keep {
+        word-break: keep-all;
 }
 .atw-rounded {
         border-radius: 0.25rem;

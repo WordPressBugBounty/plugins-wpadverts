@@ -1,14 +1,14 @@
-# Copyright (C) 2024 Greg Winiarski
+# Copyright (C) 2025 Greg Winiarski
 # This file is distributed under the same license as the WP Adverts package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Adverts 2.2.0\n"
+"Project-Id-Version: WP Adverts 2.2.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpadverts\n"
-"POT-Creation-Date: 2024-12-02 10:39:59+00:00\n"
+"POT-Creation-Date: 2025-02-03 11:44:00+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en\n"
@@ -361,113 +361,113 @@ msgstr ""
 
 #: addons/core/includes/admin-pages.php:342
 #: addons/core/includes/admin-pages.php:343
-msgid "Defaults Values For [adverts_list]"
-msgstr ""
-
-#: addons/core/includes/admin-pages.php:348
-msgid "Search Bar"
-msgstr ""
-
-#: addons/core/includes/admin-pages.php:351
-msgid "Enabled"
-msgstr ""
-
-#: addons/core/includes/admin-pages.php:352
-msgid "Disabled"
-msgstr ""
-
-#: addons/core/includes/admin-pages.php:361
-msgid "Display Ads As"
-msgstr ""
-
-#: addons/core/includes/admin-pages.php:364
-msgid "Grid (2 or more columns)"
-msgstr ""
-
-#: addons/core/includes/admin-pages.php:365
-msgid "List (1 column)"
-msgstr ""
-
-#: addons/core/includes/admin-pages.php:375
-msgid "Columns"
-msgstr ""
-
-#: addons/core/includes/admin-pages.php:389
-msgid "Posts Per Page"
-msgstr ""
-
-#: addons/core/includes/admin-pages.php:401
-msgid "Switch Views"
-msgstr ""
-
-#: addons/core/includes/admin-pages.php:404
-msgid "Allow users to switch between grid and list view."
-msgstr ""
-
-#: addons/core/includes/admin-pages.php:411
-#: addons/core/includes/admin-pages.php:412
 msgid "Currency Settings"
 msgstr ""
 
-#: addons/core/includes/admin-pages.php:418
+#: addons/core/includes/admin-pages.php:349
 msgid "Currency"
 msgstr ""
 
-#: addons/core/includes/admin-pages.php:425
+#: addons/core/includes/admin-pages.php:356
 msgid "Currency Position"
 msgstr ""
 
-#: addons/core/includes/admin-pages.php:427
+#: addons/core/includes/admin-pages.php:358
 msgid "Prefix - $10"
 msgstr ""
 
-#: addons/core/includes/admin-pages.php:428
+#: addons/core/includes/admin-pages.php:359
 msgid "Suffix - 10$"
 msgstr ""
 
-#: addons/core/includes/admin-pages.php:435
+#: addons/core/includes/admin-pages.php:366
 msgid "Decimal Places"
 msgstr ""
 
-#: addons/core/includes/admin-pages.php:445
+#: addons/core/includes/admin-pages.php:376
 msgid "Decimal Separator"
 msgstr ""
 
-#: addons/core/includes/admin-pages.php:451
+#: addons/core/includes/admin-pages.php:382
 msgid "Thousands Separator"
 msgstr ""
 
-#: addons/core/includes/admin-pages.php:457
-#: addons/core/includes/admin-pages.php:458
+#: addons/core/includes/admin-pages.php:388
+#: addons/core/includes/admin-pages.php:389
 msgid "Expired Ads Handling"
 msgstr ""
 
-#: addons/core/includes/admin-pages.php:464
+#: addons/core/includes/admin-pages.php:395
 msgid "Expired Ad HTTP Status"
 msgstr ""
 
-#: addons/core/includes/admin-pages.php:467
+#: addons/core/includes/admin-pages.php:398
 msgid "<strong>404</strong> — Show 'Page Not Found' Error"
 msgstr ""
 
-#: addons/core/includes/admin-pages.php:468
+#: addons/core/includes/admin-pages.php:399
 msgid "<strong>301</strong> — Redirect to a different page ..."
 msgstr ""
 
-#: addons/core/includes/admin-pages.php:469
+#: addons/core/includes/admin-pages.php:400
 msgid "<strong>200</strong> — Show Ad details page with contact options disabled."
 msgstr ""
 
-#: addons/core/includes/admin-pages.php:476
+#: addons/core/includes/admin-pages.php:407
 msgid "Redirect URL"
 msgstr ""
 
-#: addons/core/includes/admin-pages.php:483
+#: addons/core/includes/admin-pages.php:414
 msgid "Always Visible For"
 msgstr ""
 
-#: addons/core/includes/admin-pages.php:487
+#: addons/core/includes/admin-pages.php:418
 msgid "Cabability (or Role) required to always see expired Ads details pages."
+msgstr ""
+
+#: addons/core/includes/admin-pages.php:424
+#: addons/core/includes/admin-pages.php:425
+msgid "Defaults Values For [adverts_list]"
+msgstr ""
+
+#: addons/core/includes/admin-pages.php:430
+msgid "Search Bar"
+msgstr ""
+
+#: addons/core/includes/admin-pages.php:433
+msgid "Enabled"
+msgstr ""
+
+#: addons/core/includes/admin-pages.php:434
+msgid "Disabled"
+msgstr ""
+
+#: addons/core/includes/admin-pages.php:443
+msgid "Display Ads As"
+msgstr ""
+
+#: addons/core/includes/admin-pages.php:446
+msgid "Grid (2 or more columns)"
+msgstr ""
+
+#: addons/core/includes/admin-pages.php:447
+msgid "List (1 column)"
+msgstr ""
+
+#: addons/core/includes/admin-pages.php:457
+msgid "Columns"
+msgstr ""
+
+#: addons/core/includes/admin-pages.php:471
+msgid "Posts Per Page"
+msgstr ""
+
+#: addons/core/includes/admin-pages.php:483
+msgid "Switch Views"
+msgstr ""
+
+#: addons/core/includes/admin-pages.php:486
+msgid "Allow users to switch between grid and list view."
 msgstr ""
 
 #: addons/core/includes/admin-pages.php:501
@@ -812,6 +812,22 @@ msgid ""
 "Hello,\n"
 "New Ad titled '{$advert.post_title}' has been saved and is pending "
 "moderation.\n"
+"\n"
+"You can edit the Ad here:\n"
+"{$advert|admin_edit_url}\n"
+"\n"
+"Please either Publish or Trash it then the owner will be notified."
+msgstr ""
+
+#: addons/emails/includes/class-emails-messages.php:230
+msgid "User updated his Ad (action required)."
+msgstr ""
+
+#: addons/emails/includes/class-emails-messages.php:231
+msgid ""
+"Hello,\n"
+"Ad titled '{$advert.post_title}' has been updated by the user and is "
+"pending moderation.\n"
 "\n"
 "You can edit the Ad here:\n"
 "{$advert|admin_edit_url}\n"
@@ -1200,7 +1216,7 @@ msgid "Pending Payment"
 msgstr ""
 
 #: addons/payments/includes/admin-pages.php:685
-#: blocks/manage/class-manage-engine.php:316
+#: blocks/manage/class-manage-engine.php:320
 #: includes/class-moderate-admin.php:7 includes/class-types-admin.php:114
 #: includes/class-types-admin.php:149 includes/class-updates-manager.php:332
 #: templates/manage-edit.php:74
@@ -1883,8 +1899,8 @@ msgstr ""
 msgid "Published %1$s - %2$s ago"
 msgstr ""
 
-#: blocks/list/index.php:154 blocks/list/index.php:177
-#: blocks/list/index.php:178 blocks/manage/class-manage-engine.php:26
+#: blocks/list/index.php:154 blocks/list/index.php:183
+#: blocks/list/index.php:184 blocks/manage/class-manage-engine.php:26
 #: blocks/manage/class-manage-engine.php:109
 #: blocks/manage/class-manage-engine.php:110 blocks/search/index.php:126
 #: blocks/search/index.php:149 blocks/search/index.php:150
@@ -1893,7 +1909,7 @@ msgstr ""
 msgid "Publish Date"
 msgstr ""
 
-#: blocks/list/index.php:156 blocks/list/index.php:178
+#: blocks/list/index.php:156 blocks/list/index.php:184
 #: blocks/manage/class-manage-engine.php:28
 #: blocks/manage/class-manage-engine.php:110 blocks/search/index.php:128
 #: blocks/search/index.php:150 includes/shortcodes.php:98
@@ -1926,7 +1942,15 @@ msgstr ""
 msgid "From Z to A"
 msgstr ""
 
-#: blocks/list/index.php:178 blocks/list/index.php:208
+#: blocks/list/index.php:175 includes/class-widget-ads.php:143
+msgid "Random"
+msgstr ""
+
+#: blocks/list/index.php:177
+msgid "Random Order"
+msgstr ""
+
+#: blocks/list/index.php:184 blocks/list/index.php:216
 #: blocks/manage/class-manage-engine.php:110
 #: blocks/manage/class-manage-engine.php:140 blocks/search/index.php:150
 #: blocks/search/index.php:180 includes/shortcodes.php:120
@@ -1959,12 +1983,12 @@ msgid "Only logged in users can access this page."
 msgstr ""
 
 #: blocks/manage/class-manage-engine.php:63
-#: blocks/single-contact/templates/contact-disabled.php:20
+#: blocks/single-contact/templates/contact-disabled.php:28
 msgid "Login"
 msgstr ""
 
 #: blocks/manage/class-manage-engine.php:64
-#: blocks/single-contact/templates/contact-disabled.php:24
+#: blocks/single-contact/templates/contact-disabled.php:32
 msgid "Register"
 msgstr ""
 
@@ -1973,17 +1997,17 @@ msgid "Manage"
 msgstr ""
 
 #: blocks/manage/class-manage-engine.php:230 includes/shortcodes.php:414
-#: includes/shortcodes.php:514
+#: includes/shortcodes.php:518
 msgid "Ad does not exist."
 msgstr ""
 
 #: blocks/manage/class-manage-engine.php:238 includes/shortcodes.php:424
-#: includes/shortcodes.php:524
+#: includes/shortcodes.php:528
 msgid "You do not own this Ad."
 msgstr ""
 
 #: blocks/manage/class-manage-engine.php:248 includes/shortcodes.php:436
-#: includes/shortcodes.php:536
+#: includes/shortcodes.php:540
 msgid "Incorrect post status [%s]."
 msgstr ""
 
@@ -1991,20 +2015,20 @@ msgstr ""
 msgid "Post has been updated."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:294 includes/shortcodes.php:484
+#: blocks/manage/class-manage-engine.php:298 includes/shortcodes.php:488
 msgid "Cannot update. There are errors in your form."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:332 includes/gallery.php:347
+#: blocks/manage/class-manage-engine.php:336 includes/gallery.php:347
 #: templates/manage.php:56
 msgid "View"
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:344
+#: blocks/manage/class-manage-engine.php:348
 msgid "Delete ..."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:378 templates/manage-edit.php:69
+#: blocks/manage/class-manage-engine.php:382 templates/manage-edit.php:69
 msgid ""
 "<strong>Important Note.</strong> After submitting changes your Ad will be "
 "held for moderation. It will become active again once the Administrator "
@@ -2064,8 +2088,8 @@ msgstr ""
 msgid "View ads list"
 msgstr ""
 
-#: blocks/publish/class-publish-engine.php:337
-#: blocks/publish/class-publish-engine.php:512
+#: blocks/publish/class-publish-engine.php:339
+#: blocks/publish/class-publish-engine.php:514
 #: blocks/publish/templates/publish-preview.php:41
 #: blocks/publish/templates/publish-preview.php:87
 #: includes/class-shortcode-adverts-add.php:317
@@ -2073,25 +2097,25 @@ msgstr ""
 msgid "Publish Listing"
 msgstr ""
 
-#: blocks/publish/class-publish-engine.php:340
-#: blocks/publish/class-publish-engine.php:514
+#: blocks/publish/class-publish-engine.php:342
+#: blocks/publish/class-publish-engine.php:516
 msgid "Preview Listing"
 msgstr ""
 
-#: blocks/publish/class-publish-engine.php:390
-#: includes/class-shortcode-adverts-add.php:346 includes/functions.php:3140
+#: blocks/publish/class-publish-engine.php:392
+#: includes/class-shortcode-adverts-add.php:346 includes/functions.php:3177
 msgid ""
 "Could not verify the request checksum. Please refresh the page and try "
 "again."
 msgstr ""
 
-#: blocks/publish/class-publish-engine.php:392
-#: includes/class-shortcode-adverts-add.php:348 includes/functions.php:3142
+#: blocks/publish/class-publish-engine.php:394
+#: includes/class-shortcode-adverts-add.php:348 includes/functions.php:3179
 msgid "Checksum does not exist. Please refresh the page and try again."
 msgstr ""
 
-#: blocks/publish/class-publish-engine.php:411
-#: blocks/publish/class-publish-engine.php:561
+#: blocks/publish/class-publish-engine.php:413
+#: blocks/publish/class-publish-engine.php:563
 #: includes/class-shortcode-adverts-add.php:367
 #: includes/class-shortcode-adverts-add.php:477
 msgid ""
@@ -2099,17 +2123,17 @@ msgid ""
 "cookies."
 msgstr ""
 
-#: blocks/publish/class-publish-engine.php:504
+#: blocks/publish/class-publish-engine.php:506
 #: includes/class-shortcode-adverts-add.php:440
 msgid "There are errors in your form. Please correct them before proceeding."
 msgstr ""
 
-#: blocks/publish/class-publish-engine.php:582
+#: blocks/publish/class-publish-engine.php:584
 #: includes/class-shortcode-adverts-add.php:497
 msgid "Thank you for submitting your ad!"
 msgstr ""
 
-#: blocks/publish/class-publish-engine.php:669
+#: blocks/publish/class-publish-engine.php:682
 #: includes/class-shortcode-adverts-add.php:581 includes/shortcodes.php:279
 msgid ""
 "Only logged in users can access this page. <a href=\"%1$s\">Login</a> or <a "
@@ -2154,11 +2178,15 @@ msgstr ""
 msgid "call"
 msgstr ""
 
-#: blocks/single-contact/index.php:74
+#: blocks/single-contact/index.php:73
+msgid "Contact options are disabled for expired ads."
+msgstr ""
+
+#: blocks/single-contact/index.php:79
 msgid "Only logged-in members can contact sellers."
 msgstr ""
 
-#: blocks/single-contact/index.php:75
+#: blocks/single-contact/index.php:80
 msgid "Please login or register to to send a message."
 msgstr ""
 
@@ -2321,29 +2349,27 @@ msgid ""
 msgstr ""
 
 #: includes/admin-pages.php:173
-msgid "Analytics"
-msgstr ""
-
-#: includes/admin-pages.php:174
-msgid ""
-"Google Analytics integration, allows users to view their Ads stats in past "
-"30 days."
-msgstr ""
-
-#: includes/admin-pages.php:180
 msgid "Category Icons"
 msgstr ""
 
-#: includes/admin-pages.php:181
+#: includes/admin-pages.php:174
 msgid "Set custom icons (small and big) for each category."
 msgstr ""
 
-#: includes/admin-pages.php:187
+#: includes/admin-pages.php:180
 msgid "Mark As Sold"
 msgstr ""
 
-#: includes/admin-pages.php:188
+#: includes/admin-pages.php:181
 msgid "Allow users and administrators to mark the Ads as sold."
+msgstr ""
+
+#: includes/admin-pages.php:187
+msgid "Analytics"
+msgstr ""
+
+#: includes/admin-pages.php:188
+msgid "Native analytics implementation independent of any third parties."
 msgstr ""
 
 #: includes/admin-pages.php:196
@@ -2529,7 +2555,7 @@ msgstr ""
 msgid "Post you are trying to delete does not belong to you."
 msgstr ""
 
-#: includes/ajax.php:1223 includes/functions.php:3281
+#: includes/ajax.php:1223 includes/functions.php:3318
 msgid "This post is not an Advert."
 msgstr ""
 
@@ -2944,10 +2970,6 @@ msgstr ""
 
 #: includes/class-widget-ads.php:116
 msgid "Price Max."
-msgstr ""
-
-#: includes/class-widget-ads.php:143
-msgid "Random"
 msgstr ""
 
 #: includes/class-widget-ads.php:149
@@ -3405,45 +3427,45 @@ msgstr ""
 msgid "Pending Ads"
 msgstr ""
 
-#: includes/functions.php:3014
+#: includes/functions.php:3015 includes/functions.php:3050
 msgid ""
 "<strong>Visible To Administrators Only</strong><br/>This Ad expired, but as "
 "a user with <em>%s</em> capability you can see this page."
 msgstr ""
 
-#: includes/functions.php:3019
+#: includes/functions.php:3020 includes/functions.php:3055
 msgid ""
 "<strong>This Ad expired and is no longer available.</strong><br/>See our "
 "other active <a href=\"%s\">classified ads</a>."
 msgstr ""
 
-#: includes/functions.php:3198
+#: includes/functions.php:3235
 msgid ""
 "It seems you are not the post %d author. Please refresh the page and try "
 "again."
 msgstr ""
 
-#: includes/functions.php:3206
+#: includes/functions.php:3243
 msgid "Post ID not provided."
 msgstr ""
 
-#: includes/functions.php:3236
+#: includes/functions.php:3273
 msgid "This post does not exist."
 msgstr ""
 
-#: includes/functions.php:3255
+#: includes/functions.php:3292
 msgid "This post cannot be edited by annonymous users."
 msgstr ""
 
-#: includes/functions.php:3263
+#: includes/functions.php:3300
 msgid "This post does not belong to you."
 msgstr ""
 
-#: includes/functions.php:4053
+#: includes/functions.php:4090
 msgid "Cannot verify config nonce. <a href=''>Retry</a>"
 msgstr ""
 
-#: includes/functions.php:4082
+#: includes/functions.php:4119
 msgid "Create new types with <strong>Multiverse</strong> extension."
 msgstr ""
 
@@ -3661,7 +3683,7 @@ msgstr ""
 msgid "Image resized to %d x %d - the image visible in upload preview."
 msgstr ""
 
-#: includes/shortcodes.php:545
+#: includes/shortcodes.php:549
 msgid ""
 "You are seeing a post preview. This page is not publicly available. <a "
 "href=\"%s\">Go back</a>"
