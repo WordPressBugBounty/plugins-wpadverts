@@ -2248,6 +2248,13 @@
         text-overflow: ellipsis;
         white-space: nowrap;
 }
+.atw-break-normal {
+        overflow-wrap: normal;
+        word-break: normal;
+}
+.atw-break-words {
+        overflow-wrap: break-word;
+}
 .atw-break-all {
         word-break: break-all;
 }

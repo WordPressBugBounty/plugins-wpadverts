@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the WP Adverts package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Adverts 2.2.2\n"
+"Project-Id-Version: WP Adverts 2.2.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpadverts\n"
-"POT-Creation-Date: 2025-03-31 10:06:53+00:00\n"
+"POT-Creation-Date: 2025-04-22 09:18:31+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,7 +34,7 @@ msgstr ""
 
 #: addons/bank-transfer/bank-transfer.php:63
 #: addons/payments/includes/admin-pages.php:704
-#: blocks/single-data-table/index.php:195 includes/class-rest-blocks.php:193
+#: blocks/single-data-table/index.php:201 includes/class-rest-blocks.php:193
 #: includes/defaults.php:56
 msgid "Contact Person"
 msgstr ""
@@ -991,7 +991,7 @@ msgid "Hide Free"
 msgstr ""
 
 #: addons/payments/admin/payment-history-list.php:78
-#: blocks/single-data-table/index.php:139 includes/class-rest-blocks.php:161
+#: blocks/single-data-table/index.php:145 includes/class-rest-blocks.php:161
 msgid "ID"
 msgstr ""
 
@@ -1049,7 +1049,7 @@ msgstr ""
 #: addons/payments/includes/admin-pages.php:819
 #: addons/styling/includes/admin-pages.php:84 blocks/list/index.php:168
 #: blocks/manage/class-manage-engine.php:40 blocks/search/index.php:140
-#: blocks/single-data-table/index.php:146 includes/admin-post-type.php:575
+#: blocks/single-data-table/index.php:152 includes/admin-post-type.php:575
 #: includes/class-rest-blocks.php:165 includes/class-types-admin.php:616
 #: includes/class-widget-ads.php:77 includes/class-widget-ads.php:133
 #: includes/class-widget-categories.php:76 includes/defaults.php:96
@@ -1060,8 +1060,8 @@ msgstr ""
 #: addons/payments/admin/pricing-list.php:50
 #: addons/payments/includes/admin-pages.php:834 blocks/list/index.php:161
 #: blocks/manage/class-manage-engine.php:33 blocks/search/index.php:133
-#: blocks/single-data-table/index.php:216
-#: blocks/single-data-table/index.php:237 includes/admin-post-type.php:576
+#: blocks/single-data-table/index.php:222
+#: blocks/single-data-table/index.php:243 includes/admin-post-type.php:576
 #: includes/class-rest-blocks.php:205 includes/class-rest-blocks.php:251
 #: includes/class-widget-ads.php:138 includes/defaults.php:142
 #: includes/shortcodes.php:103
@@ -1250,7 +1250,7 @@ msgid "New Posting"
 msgstr ""
 
 #: addons/payments/includes/admin-pages.php:828 blocks/details/index.php:110
-#: blocks/single-data-table/index.php:160 includes/defaults.php:132
+#: blocks/single-data-table/index.php:166 includes/defaults.php:132
 #: includes/gallery.php:465
 msgid "Description"
 msgstr ""
@@ -1881,14 +1881,14 @@ msgstr ""
 msgid "Classifieds details page with a sidebar"
 msgstr ""
 
-#: blocks/details/index.php:96 blocks/single-data-table/index.php:255
+#: blocks/details/index.php:96 blocks/single-data-table/index.php:261
 #: includes/class-widget-ads.php:103 includes/defaults.php:105
 #: templates/single.php:45
 msgid "Category"
 msgstr ""
 
-#: blocks/details/index.php:101 blocks/single-data-table/index.php:223
-#: blocks/single-data-table/index.php:230 includes/class-rest-blocks.php:209
+#: blocks/details/index.php:101 blocks/single-data-table/index.php:229
+#: blocks/single-data-table/index.php:236 includes/class-rest-blocks.php:209
 #: includes/class-rest-blocks.php:247 includes/class-widget-ads.php:98
 #: includes/defaults.php:154 templates/single.php:60
 msgid "Location"
@@ -2190,27 +2190,27 @@ msgstr ""
 msgid "Please login or register to to send a message."
 msgstr ""
 
-#: blocks/single-data-table/index.php:153 includes/class-rest-blocks.php:169
+#: blocks/single-data-table/index.php:159 includes/class-rest-blocks.php:169
 #: includes/class-types-admin.php:620
 msgid "Excerpt"
 msgstr ""
 
-#: blocks/single-data-table/index.php:167
-#: blocks/single-data-table/index.php:174
-#: blocks/single-data-table/index.php:244
+#: blocks/single-data-table/index.php:173
+#: blocks/single-data-table/index.php:180
+#: blocks/single-data-table/index.php:250
 msgid "Published"
 msgstr ""
 
-#: blocks/single-data-table/index.php:181
-#: blocks/single-data-table/index.php:188
+#: blocks/single-data-table/index.php:187
+#: blocks/single-data-table/index.php:194
 msgid "Modified"
 msgstr ""
 
-#: blocks/single-data-table/index.php:202 includes/class-rest-blocks.php:197
+#: blocks/single-data-table/index.php:208 includes/class-rest-blocks.php:197
 msgid "Contact Email"
 msgstr ""
 
-#: blocks/single-data-table/index.php:209 includes/class-rest-blocks.php:201
+#: blocks/single-data-table/index.php:215 includes/class-rest-blocks.php:201
 msgid "Contact Phone"
 msgstr ""
 
