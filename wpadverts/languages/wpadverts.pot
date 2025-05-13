@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the WP Adverts package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Adverts 2.2.3\n"
+"Project-Id-Version: WP Adverts 2.2.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpadverts\n"
-"POT-Creation-Date: 2025-04-22 09:18:31+00:00\n"
+"POT-Creation-Date: 2025-05-13 08:44:44+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "Payment Gateway / Bank Transfer"
 msgstr ""
 
-#: addons/bank-transfer/bank-transfer.php:42 includes/admin-pages.php:199
+#: addons/bank-transfer/bank-transfer.php:42 includes/admin-pages.php:206
 msgid "Bank Transfer"
 msgstr ""
 
@@ -2170,6 +2170,10 @@ msgstr ""
 msgid "Publish another Ad"
 msgstr ""
 
+#: blocks/single-author/templates/list.php:25
+msgid "show phone number"
+msgstr ""
+
 #: blocks/single-author/templates/list.php:34
 msgid "copy"
 msgstr ""
@@ -2372,47 +2376,55 @@ msgstr ""
 msgid "Native analytics implementation independent of any third parties."
 msgstr ""
 
-#: includes/admin-pages.php:196
+#: includes/admin-pages.php:194
+msgid "Currencies"
+msgstr ""
+
+#: includes/admin-pages.php:195
+msgid "Expand your classifieds site globally with seamless multi-currency support."
+msgstr ""
+
+#: includes/admin-pages.php:203
 msgid "Payment Gateways"
 msgstr ""
 
-#: includes/admin-pages.php:200
+#: includes/admin-pages.php:207
 msgid ""
 "Allow users to pay for ad posting using direct bank transfer or cash "
 "payments."
 msgstr ""
 
-#: includes/admin-pages.php:205
+#: includes/admin-pages.php:212
 msgid "PayPal Standard"
 msgstr ""
 
-#: includes/admin-pages.php:206
+#: includes/admin-pages.php:213
 msgid "PayPal Payments Standard, allow users to pay for ads via PayPal."
 msgstr ""
 
-#: includes/admin-pages.php:212
+#: includes/admin-pages.php:219
 msgid "Stripe"
 msgstr ""
 
-#: includes/admin-pages.php:213
+#: includes/admin-pages.php:220
 msgid ""
 "Charge users for Ad postings using credit cards (and some other payment "
 "gateways)."
 msgstr ""
 
-#: includes/admin-pages.php:399
+#: includes/admin-pages.php:406
 msgid "Category Icon"
 msgstr ""
 
-#: includes/admin-pages.php:403
+#: includes/admin-pages.php:410
 msgid "Filter Icons ..."
 msgstr ""
 
-#: includes/admin-pages.php:406
+#: includes/admin-pages.php:413
 msgid "Icons V4"
 msgstr ""
 
-#: includes/admin-pages.php:407
+#: includes/admin-pages.php:414
 msgid "Icons V6"
 msgstr ""
 
