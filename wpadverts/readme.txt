@@ -5,7 +5,7 @@ Tags: classifieds, classified, classified ads, classifieds script, classifieds p
 Requires PHP: 5.6
 Requires at least: 5.7
 Tested up to: 6.8
-Stable tag: 2.2.4
+Stable tag: 2.2.5
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -124,6 +124,12 @@ Most likely rewrite rules were not registered properly for some reason. Go to wp
 "Save Changes" button without actually changing anything, this should reset router and fix URLs.
 
 == Changelog ==
+
+= 2.2.5 - 2025-06-10 =
+
+* FIXED: Incorrect label for the KSES filter.
+* FIXED: Show Avatar option in the Classifieds List not working.
+* FIXED: XSS vulnerability in the Classifieds Categories block.
 
 = 2.2.4 - 2025-05-13 =
 

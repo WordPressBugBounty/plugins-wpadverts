@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the WP Adverts package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Adverts 2.2.4\n"
+"Project-Id-Version: WP Adverts 2.2.5\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpadverts\n"
-"POT-Creation-Date: 2025-05-13 08:44:44+00:00\n"
+"POT-Creation-Date: 2025-06-10 11:23:02+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1895,7 +1895,7 @@ msgid "Location"
 msgstr ""
 
 #: blocks/details/templates/single.php:28
-#: blocks/single-author/templates/list.php:17
+#: blocks/single-author/templates/list.php:19
 msgid "Published %1$s - %2$s ago"
 msgstr ""
 
@@ -2170,15 +2170,15 @@ msgstr ""
 msgid "Publish another Ad"
 msgstr ""
 
-#: blocks/single-author/templates/list.php:25
+#: blocks/single-author/templates/list.php:27
 msgid "show phone number"
 msgstr ""
 
-#: blocks/single-author/templates/list.php:34
+#: blocks/single-author/templates/list.php:36
 msgid "copy"
 msgstr ""
 
-#: blocks/single-author/templates/list.php:35
+#: blocks/single-author/templates/list.php:37
 msgid "call"
 msgstr ""
 
@@ -3077,8 +3077,12 @@ msgstr ""
 msgid "Integer - converts string to absolute integer."
 msgstr ""
 
-#: includes/defaults.php:308 includes/defaults.php:315
+#: includes/defaults.php:308
 msgid "Number - converts string to a number."
+msgstr ""
+
+#: includes/defaults.php:315
+msgid "HTML - removes unsafe HTML tags and attributes."
 msgstr ""
 
 #: includes/defaults.php:325
