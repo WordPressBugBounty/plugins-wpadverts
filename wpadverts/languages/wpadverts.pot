@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the WP Adverts package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Adverts 2.2.5\n"
+"Project-Id-Version: WP Adverts 2.2.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpadverts\n"
-"POT-Creation-Date: 2025-06-10 11:23:02+00:00\n"
+"POT-Creation-Date: 2025-06-24 09:03:08+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "Payment Gateway / Bank Transfer"
 msgstr ""
 
-#: addons/bank-transfer/bank-transfer.php:42 includes/admin-pages.php:206
+#: addons/bank-transfer/bank-transfer.php:42 includes/admin-pages.php:213
 msgid "Bank Transfer"
 msgstr ""
 
@@ -265,7 +265,7 @@ msgstr ""
 #: addons/core/admin/types-icon-picker.php:21 blocks/manage/index.php:52
 #: includes/admin-post-type.php:310 includes/class-updates-manager.php:333
 #: includes/gallery.php:514 includes/gallery.php:592 templates/manage.php:70
-#: wpadverts.php:395
+#: wpadverts.php:396
 msgid "Cancel"
 msgstr ""
 
@@ -1855,7 +1855,7 @@ msgid "No categories found."
 msgstr ""
 
 #: blocks/class-block-manager.php:44 blocks/class-block-patterns.php:8
-#: wpadverts.php:249
+#: wpadverts.php:250
 msgid "Classifieds"
 msgstr ""
 
@@ -1970,7 +1970,7 @@ msgid "results found."
 msgstr ""
 
 #: blocks/list/templates/list.php:161
-#: blocks/manage/templates/manage-list.php:165 wpadverts.php:391
+#: blocks/manage/templates/manage-list.php:165 wpadverts.php:392
 msgid "No results found."
 msgstr ""
 
@@ -2055,7 +2055,7 @@ msgstr ""
 msgid "There was an error while deleting."
 msgstr ""
 
-#: blocks/manage/index.php:56 includes/gallery.php:644 wpadverts.php:393
+#: blocks/manage/index.php:56 includes/gallery.php:644 wpadverts.php:394
 msgid "Close"
 msgstr ""
 
@@ -2325,106 +2325,114 @@ msgid "Display contact form on the Ad details pages."
 msgstr ""
 
 #: includes/admin-pages.php:152
-msgid "Maps And Locations"
+msgid "Better Messages"
 msgstr ""
 
 #: includes/admin-pages.php:153
-msgid "Locations Taxonomy, Google Maps integration and more."
+msgid "Enable Real-Time Messaging with Sellers Using Better Messages"
 msgstr ""
 
 #: includes/admin-pages.php:159
-msgid "Fee Per Category"
+msgid "Maps And Locations"
 msgstr ""
 
 #: includes/admin-pages.php:160
+msgid "Locations Taxonomy, Google Maps integration and more."
+msgstr ""
+
+#: includes/admin-pages.php:166
+msgid "Fee Per Category"
+msgstr ""
+
+#: includes/admin-pages.php:167
 msgid ""
 "Set fee for Ads posting per category or allow to post for free in some "
 "categories."
 msgstr ""
 
-#: includes/admin-pages.php:166
+#: includes/admin-pages.php:173
 msgid "reCAPTCHA"
 msgstr ""
 
-#: includes/admin-pages.php:167
+#: includes/admin-pages.php:174
 msgid ""
 "Protect your forms from SPAM using easy easy for humans and hard for bots "
 "captcha."
 msgstr ""
 
-#: includes/admin-pages.php:173
+#: includes/admin-pages.php:180
 msgid "Category Icons"
 msgstr ""
 
-#: includes/admin-pages.php:174
+#: includes/admin-pages.php:181
 msgid "Set custom icons (small and big) for each category."
 msgstr ""
 
-#: includes/admin-pages.php:180
+#: includes/admin-pages.php:187
 msgid "Mark As Sold"
 msgstr ""
 
-#: includes/admin-pages.php:181
+#: includes/admin-pages.php:188
 msgid "Allow users and administrators to mark the Ads as sold."
 msgstr ""
 
-#: includes/admin-pages.php:187
+#: includes/admin-pages.php:194
 msgid "Analytics"
 msgstr ""
 
-#: includes/admin-pages.php:188
+#: includes/admin-pages.php:195
 msgid "Native analytics implementation independent of any third parties."
 msgstr ""
 
-#: includes/admin-pages.php:194
+#: includes/admin-pages.php:201
 msgid "Currencies"
 msgstr ""
 
-#: includes/admin-pages.php:195
+#: includes/admin-pages.php:202
 msgid "Expand your classifieds site globally with seamless multi-currency support."
 msgstr ""
 
-#: includes/admin-pages.php:203
+#: includes/admin-pages.php:210
 msgid "Payment Gateways"
 msgstr ""
 
-#: includes/admin-pages.php:207
+#: includes/admin-pages.php:214
 msgid ""
 "Allow users to pay for ad posting using direct bank transfer or cash "
 "payments."
 msgstr ""
 
-#: includes/admin-pages.php:212
+#: includes/admin-pages.php:219
 msgid "PayPal Standard"
 msgstr ""
 
-#: includes/admin-pages.php:213
+#: includes/admin-pages.php:220
 msgid "PayPal Payments Standard, allow users to pay for ads via PayPal."
 msgstr ""
 
-#: includes/admin-pages.php:219
+#: includes/admin-pages.php:226
 msgid "Stripe"
 msgstr ""
 
-#: includes/admin-pages.php:220
+#: includes/admin-pages.php:227
 msgid ""
 "Charge users for Ad postings using credit cards (and some other payment "
 "gateways)."
 msgstr ""
 
-#: includes/admin-pages.php:406
+#: includes/admin-pages.php:413
 msgid "Category Icon"
 msgstr ""
 
-#: includes/admin-pages.php:410
+#: includes/admin-pages.php:417
 msgid "Filter Icons ..."
 msgstr ""
 
-#: includes/admin-pages.php:413
+#: includes/admin-pages.php:420
 msgid "Icons V4"
 msgstr ""
 
-#: includes/admin-pages.php:414
+#: includes/admin-pages.php:421
 msgid "Icons V6"
 msgstr ""
 
@@ -2445,7 +2453,7 @@ msgstr ""
 msgid "%1$s %2$s, %3$s @ %4$s : %5$s"
 msgstr ""
 
-#: includes/admin-post-type.php:309 wpadverts.php:394 wpadverts.php:498
+#: includes/admin-post-type.php:309 wpadverts.php:395 wpadverts.php:499
 msgid "OK"
 msgstr ""
 
@@ -3545,7 +3553,7 @@ msgid ""
 "video cover."
 msgstr ""
 
-#: includes/gallery.php:503 wpadverts.php:404
+#: includes/gallery.php:503 wpadverts.php:405
 msgid "Edit Image"
 msgstr ""
 
@@ -3769,95 +3777,95 @@ msgstr ""
 msgid "Published: %1$s (%2$s ago)"
 msgstr ""
 
-#: wpadverts.php:225
+#: wpadverts.php:226
 msgid "Expired <span class=\"count\">(%s)</span>"
 msgid_plural "Expired <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: wpadverts.php:233
+#: wpadverts.php:234
 msgid "Temporary <span class=\"count\">(%s)</span>"
 msgid_plural "Temporary <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: wpadverts.php:240
+#: wpadverts.php:241
 msgid "Add New Classified"
 msgstr ""
 
-#: wpadverts.php:241
+#: wpadverts.php:242
 msgid "Edit Classified"
 msgstr ""
 
-#: wpadverts.php:242
+#: wpadverts.php:243
 msgid "New Classified"
 msgstr ""
 
-#: wpadverts.php:243
+#: wpadverts.php:244
 msgid "All Classifieds"
 msgstr ""
 
-#: wpadverts.php:244
+#: wpadverts.php:245
 msgid "View Classified"
 msgstr ""
 
-#: wpadverts.php:245
+#: wpadverts.php:246
 msgid "Search Classifieds"
 msgstr ""
 
-#: wpadverts.php:246
+#: wpadverts.php:247
 msgid "No Classifieds found"
 msgstr ""
 
-#: wpadverts.php:247
+#: wpadverts.php:248
 msgid "No Classifieds found in the Trash"
 msgstr ""
 
-#: wpadverts.php:277
+#: wpadverts.php:278
 msgid "Categories"
 msgstr ""
 
-#: wpadverts.php:386
+#: wpadverts.php:387
 msgid "Select options ..."
 msgstr ""
 
-#: wpadverts.php:392
+#: wpadverts.php:393
 msgid "Open"
 msgstr ""
 
-#: wpadverts.php:396
+#: wpadverts.php:397
 msgid "Selected"
 msgstr ""
 
-#: wpadverts.php:397
+#: wpadverts.php:398
 msgid "Cannot select more than %s items."
 msgstr ""
 
-#: wpadverts.php:398
+#: wpadverts.php:399
 msgid "Type in the box above to see suggestions ..."
 msgstr ""
 
-#: wpadverts.php:399
+#: wpadverts.php:400
 msgid "start typing here ..."
 msgstr ""
 
-#: wpadverts.php:405
+#: wpadverts.php:406
 msgid "Delete Image"
 msgstr ""
 
-#: wpadverts.php:406
+#: wpadverts.php:407
 msgid "View Full Image"
 msgstr ""
 
-#: wpadverts.php:407
+#: wpadverts.php:408
 msgid "Main"
 msgstr ""
 
-#: wpadverts.php:553
+#: wpadverts.php:554
 msgid "Are you sure you want to reset this settings to defaults?"
 msgstr ""
 
-#: wpadverts.php:671
+#: wpadverts.php:672
 msgid "Module activated successfully."
 msgstr ""
 
@@ -3907,37 +3915,37 @@ msgctxt "post"
 msgid "Pending"
 msgstr ""
 
-#: wpadverts.php:222
+#: wpadverts.php:223
 msgctxt "post"
 msgid "Expired"
 msgstr ""
 
-#: wpadverts.php:229
+#: wpadverts.php:230
 msgctxt "post"
 msgid "Temporary"
 msgstr ""
 
-#: wpadverts.php:237
+#: wpadverts.php:238
 msgctxt "post type general name"
 msgid "Classifieds"
 msgstr ""
 
-#: wpadverts.php:238
+#: wpadverts.php:239
 msgctxt "post type singular name"
 msgid "Classified"
 msgstr ""
 
-#: wpadverts.php:239
+#: wpadverts.php:240
 msgctxt "classified"
 msgid "Add New"
 msgstr ""
 
-#: wpadverts.php:275
+#: wpadverts.php:276
 msgctxt "taxonomy general name"
 msgid "Adverts Categories"
 msgstr ""
 
-#: wpadverts.php:276
+#: wpadverts.php:277
 msgctxt "taxonomy singular name"
 msgid "Advert Category"
 msgstr ""
