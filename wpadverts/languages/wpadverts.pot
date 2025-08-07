@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP Adverts 2.2.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpadverts\n"
-"POT-Creation-Date: 2025-06-24 09:03:08+00:00\n"
+"POT-Creation-Date: 2025-08-07 10:33:52+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "Payment Gateway / Bank Transfer"
 msgstr ""
 
-#: addons/bank-transfer/bank-transfer.php:42 includes/admin-pages.php:213
+#: addons/bank-transfer/bank-transfer.php:42 includes/admin-pages.php:221
 msgid "Bank Transfer"
 msgstr ""
 
@@ -71,7 +71,7 @@ msgstr ""
 #: addons/contact-form/contact-form.php:156
 #: addons/contact-form/contact-form.php:516
 #: addons/contact-form/includes/admin-pages.php:62
-#: addons/contact-form/includes/class-block-details.php:309
+#: addons/contact-form/includes/class-block-details.php:311
 #: addons/core/includes/admin-pages.php:91
 #: addons/core/includes/admin-pages.php:171
 #: addons/emails/includes/class-emails-admin.php:85
@@ -109,14 +109,14 @@ msgstr ""
 #: addons/contact-form/admin/options.php:15
 #: addons/contact-form/includes/class-block-details.php:49
 #: addons/contact-form/includes/class-emails-integration.php:44
-#: includes/admin-pages.php:146
+#: includes/admin-pages.php:154
 msgid "Contact Form"
 msgstr ""
 
 #: addons/contact-form/contact-form.php:61
 #: addons/contact-form/contact-form.php:118
 #: addons/contact-form/includes/class-block-details.php:40
-#: addons/contact-form/includes/class-block-details.php:234
+#: addons/contact-form/includes/class-block-details.php:236
 msgid "Send Message"
 msgstr ""
 
@@ -133,7 +133,7 @@ msgstr ""
 
 #: addons/contact-form/contact-form.php:149
 #: addons/contact-form/contact-form.php:507
-#: addons/contact-form/includes/class-block-details.php:302
+#: addons/contact-form/includes/class-block-details.php:304
 msgid "Your message has been sent."
 msgstr ""
 
@@ -855,7 +855,7 @@ msgstr ""
 msgid "Last Name"
 msgstr ""
 
-#: addons/featured/admin/options.php:15 includes/admin-pages.php:140
+#: addons/featured/admin/options.php:15 includes/admin-pages.php:148
 msgid "Featured Ads"
 msgstr ""
 
@@ -1216,7 +1216,7 @@ msgid "Pending Payment"
 msgstr ""
 
 #: addons/payments/includes/admin-pages.php:685
-#: blocks/manage/class-manage-engine.php:320
+#: blocks/manage/class-manage-engine.php:322
 #: includes/class-moderate-admin.php:7 includes/class-types-admin.php:114
 #: includes/class-types-admin.php:149 includes/class-updates-manager.php:332
 #: templates/manage-edit.php:74
@@ -1265,7 +1265,7 @@ msgid "Complete Payment"
 msgstr ""
 
 #: addons/payments/includes/class-emails-integration.php:78
-#: includes/admin-pages.php:89
+#: includes/admin-pages.php:110
 msgid "Payments"
 msgstr ""
 
@@ -1901,8 +1901,8 @@ msgstr ""
 
 #: blocks/list/index.php:154 blocks/list/index.php:183
 #: blocks/list/index.php:184 blocks/manage/class-manage-engine.php:26
-#: blocks/manage/class-manage-engine.php:109
-#: blocks/manage/class-manage-engine.php:110 blocks/search/index.php:126
+#: blocks/manage/class-manage-engine.php:111
+#: blocks/manage/class-manage-engine.php:112 blocks/search/index.php:126
 #: blocks/search/index.php:149 blocks/search/index.php:150
 #: includes/class-widget-ads.php:128 includes/shortcodes.php:96
 #: includes/shortcodes.php:119 includes/shortcodes.php:120
@@ -1911,7 +1911,7 @@ msgstr ""
 
 #: blocks/list/index.php:156 blocks/list/index.php:184
 #: blocks/manage/class-manage-engine.php:28
-#: blocks/manage/class-manage-engine.php:110 blocks/search/index.php:128
+#: blocks/manage/class-manage-engine.php:112 blocks/search/index.php:128
 #: blocks/search/index.php:150 includes/shortcodes.php:98
 #: includes/shortcodes.php:120
 msgid "Newest First"
@@ -1951,8 +1951,8 @@ msgid "Random Order"
 msgstr ""
 
 #: blocks/list/index.php:184 blocks/list/index.php:216
-#: blocks/manage/class-manage-engine.php:110
-#: blocks/manage/class-manage-engine.php:140 blocks/search/index.php:150
+#: blocks/manage/class-manage-engine.php:112
+#: blocks/manage/class-manage-engine.php:142 blocks/search/index.php:150
 #: blocks/search/index.php:180 includes/shortcodes.php:120
 #: includes/shortcodes.php:150
 msgid "Sort By: %s - %s"
@@ -1992,43 +1992,43 @@ msgstr ""
 msgid "Register"
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:166
+#: blocks/manage/class-manage-engine.php:168
 msgid "Manage"
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:230 includes/shortcodes.php:414
+#: blocks/manage/class-manage-engine.php:232 includes/shortcodes.php:414
 #: includes/shortcodes.php:518
 msgid "Ad does not exist."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:238 includes/shortcodes.php:424
+#: blocks/manage/class-manage-engine.php:240 includes/shortcodes.php:424
 #: includes/shortcodes.php:528
 msgid "You do not own this Ad."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:248 includes/shortcodes.php:436
+#: blocks/manage/class-manage-engine.php:250 includes/shortcodes.php:436
 #: includes/shortcodes.php:540
 msgid "Incorrect post status [%s]."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:287 includes/shortcodes.php:477
+#: blocks/manage/class-manage-engine.php:289 includes/shortcodes.php:477
 msgid "Post has been updated."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:298 includes/shortcodes.php:488
+#: blocks/manage/class-manage-engine.php:300 includes/shortcodes.php:488
 msgid "Cannot update. There are errors in your form."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:336 includes/gallery.php:347
+#: blocks/manage/class-manage-engine.php:338 includes/gallery.php:347
 #: templates/manage.php:56
 msgid "View"
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:348
+#: blocks/manage/class-manage-engine.php:350
 msgid "Delete ..."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:382 templates/manage-edit.php:69
+#: blocks/manage/class-manage-engine.php:384 templates/manage-edit.php:69
 msgid ""
 "<strong>Important Note.</strong> After submitting changes your Ad will be "
 "held for moderation. It will become active again once the Administrator "
@@ -2089,7 +2089,7 @@ msgid "View ads list"
 msgstr ""
 
 #: blocks/publish/class-publish-engine.php:339
-#: blocks/publish/class-publish-engine.php:514
+#: blocks/publish/class-publish-engine.php:515
 #: blocks/publish/templates/publish-preview.php:41
 #: blocks/publish/templates/publish-preview.php:87
 #: includes/class-shortcode-adverts-add.php:317
@@ -2098,24 +2098,24 @@ msgid "Publish Listing"
 msgstr ""
 
 #: blocks/publish/class-publish-engine.php:342
-#: blocks/publish/class-publish-engine.php:516
+#: blocks/publish/class-publish-engine.php:517
 msgid "Preview Listing"
 msgstr ""
 
-#: blocks/publish/class-publish-engine.php:392
+#: blocks/publish/class-publish-engine.php:393
 #: includes/class-shortcode-adverts-add.php:346 includes/functions.php:3177
 msgid ""
 "Could not verify the request checksum. Please refresh the page and try "
 "again."
 msgstr ""
 
-#: blocks/publish/class-publish-engine.php:394
+#: blocks/publish/class-publish-engine.php:395
 #: includes/class-shortcode-adverts-add.php:348 includes/functions.php:3179
 msgid "Checksum does not exist. Please refresh the page and try again."
 msgstr ""
 
-#: blocks/publish/class-publish-engine.php:413
-#: blocks/publish/class-publish-engine.php:563
+#: blocks/publish/class-publish-engine.php:414
+#: blocks/publish/class-publish-engine.php:564
 #: includes/class-shortcode-adverts-add.php:367
 #: includes/class-shortcode-adverts-add.php:477
 msgid ""
@@ -2123,17 +2123,17 @@ msgid ""
 "cookies."
 msgstr ""
 
-#: blocks/publish/class-publish-engine.php:506
+#: blocks/publish/class-publish-engine.php:507
 #: includes/class-shortcode-adverts-add.php:440
 msgid "There are errors in your form. Please correct them before proceeding."
 msgstr ""
 
-#: blocks/publish/class-publish-engine.php:584
+#: blocks/publish/class-publish-engine.php:585
 #: includes/class-shortcode-adverts-add.php:497
 msgid "Thank you for submitting your ad!"
 msgstr ""
 
-#: blocks/publish/class-publish-engine.php:682
+#: blocks/publish/class-publish-engine.php:683
 #: includes/class-shortcode-adverts-add.php:581 includes/shortcodes.php:279
 msgid ""
 "Only logged in users can access this page. <a href=\"%1$s\">Login</a> or <a "
@@ -2254,185 +2254,193 @@ msgstr ""
 msgid "Here you can configure most basic options, applicable on any site."
 msgstr ""
 
-#: includes/admin-pages.php:90
-msgid "Charge users for posting ads on your website."
-msgstr ""
-
-#: includes/admin-pages.php:95
-msgid "WooCommerce Payments"
-msgstr ""
-
-#: includes/admin-pages.php:96
-msgid "Use WooCommerce to charge users for posting ads on your website."
-msgstr ""
-
-#: includes/admin-pages.php:102
-msgid "BuddyPress Integration"
-msgstr ""
-
-#: includes/admin-pages.php:103
-msgid ""
-"Integrate user Ads with BuddyPress profiles, registration and private "
-"messages."
-msgstr ""
-
-#: includes/admin-pages.php:109
+#: includes/admin-pages.php:89
 msgid "Custom Fields"
 msgstr ""
 
-#: includes/admin-pages.php:110
+#: includes/admin-pages.php:90
 msgid "Allow users to customize forms using easy to use drag and drop editor."
 msgstr ""
 
+#: includes/admin-pages.php:96
+msgid "Elementor Integration"
+msgstr ""
+
+#: includes/admin-pages.php:97
+msgid "Build classifieds sections with Elementor page builder."
+msgstr ""
+
+#: includes/admin-pages.php:103
+msgid "WooCommerce Payments"
+msgstr ""
+
+#: includes/admin-pages.php:104
+msgid "Use WooCommerce to charge users for posting ads on your website."
+msgstr ""
+
+#: includes/admin-pages.php:111
+msgid "Charge users for posting ads on your website."
+msgstr ""
+
 #: includes/admin-pages.php:116
-msgid "Authors"
-msgstr ""
-
-#: includes/admin-pages.php:117
-msgid "Using Authors module users can create and manage their profiles."
-msgstr ""
-
-#: includes/admin-pages.php:123
 msgid "Emails"
 msgstr ""
 
-#: includes/admin-pages.php:124
+#: includes/admin-pages.php:117
 msgid ""
 "Emails module sends transactional emails to users and allows editing the "
 "email templates content."
 msgstr ""
 
+#: includes/admin-pages.php:122
+msgid "BuddyPress Integration"
+msgstr ""
+
+#: includes/admin-pages.php:123
+msgid ""
+"Integrate user Ads with BuddyPress profiles, registration and private "
+"messages."
+msgstr ""
+
 #: includes/admin-pages.php:129
-msgid "Default Styles"
+msgid "Authors"
 msgstr ""
 
 #: includes/admin-pages.php:130
+msgid "Using Authors module users can create and manage their profiles."
+msgstr ""
+
+#: includes/admin-pages.php:137
+msgid "Default Styles"
+msgstr ""
+
+#: includes/admin-pages.php:138
 msgid ""
 "Visually adjust forms and buttons styling for seamless integration with "
 "your theme."
 msgstr ""
 
-#: includes/admin-pages.php:137
+#: includes/admin-pages.php:145
 msgid "Features"
 msgstr ""
 
-#: includes/admin-pages.php:141
+#: includes/admin-pages.php:149
 msgid "Allow users to post Ads displayed always at the top of the list."
 msgstr ""
 
-#: includes/admin-pages.php:147
+#: includes/admin-pages.php:155
 msgid "Display contact form on the Ad details pages."
 msgstr ""
 
-#: includes/admin-pages.php:152
+#: includes/admin-pages.php:160
 msgid "Better Messages"
 msgstr ""
 
-#: includes/admin-pages.php:153
+#: includes/admin-pages.php:161
 msgid "Enable Real-Time Messaging with Sellers Using Better Messages"
 msgstr ""
 
-#: includes/admin-pages.php:159
+#: includes/admin-pages.php:167
 msgid "Maps And Locations"
 msgstr ""
 
-#: includes/admin-pages.php:160
+#: includes/admin-pages.php:168
 msgid "Locations Taxonomy, Google Maps integration and more."
 msgstr ""
 
-#: includes/admin-pages.php:166
+#: includes/admin-pages.php:174
 msgid "Fee Per Category"
 msgstr ""
 
-#: includes/admin-pages.php:167
+#: includes/admin-pages.php:175
 msgid ""
 "Set fee for Ads posting per category or allow to post for free in some "
 "categories."
 msgstr ""
 
-#: includes/admin-pages.php:173
+#: includes/admin-pages.php:181
 msgid "reCAPTCHA"
 msgstr ""
 
-#: includes/admin-pages.php:174
+#: includes/admin-pages.php:182
 msgid ""
 "Protect your forms from SPAM using easy easy for humans and hard for bots "
 "captcha."
 msgstr ""
 
-#: includes/admin-pages.php:180
+#: includes/admin-pages.php:188
 msgid "Category Icons"
 msgstr ""
 
-#: includes/admin-pages.php:181
+#: includes/admin-pages.php:189
 msgid "Set custom icons (small and big) for each category."
 msgstr ""
 
-#: includes/admin-pages.php:187
+#: includes/admin-pages.php:195
 msgid "Mark As Sold"
 msgstr ""
 
-#: includes/admin-pages.php:188
+#: includes/admin-pages.php:196
 msgid "Allow users and administrators to mark the Ads as sold."
 msgstr ""
 
-#: includes/admin-pages.php:194
+#: includes/admin-pages.php:202
 msgid "Analytics"
 msgstr ""
 
-#: includes/admin-pages.php:195
+#: includes/admin-pages.php:203
 msgid "Native analytics implementation independent of any third parties."
 msgstr ""
 
-#: includes/admin-pages.php:201
+#: includes/admin-pages.php:209
 msgid "Currencies"
 msgstr ""
 
-#: includes/admin-pages.php:202
+#: includes/admin-pages.php:210
 msgid "Expand your classifieds site globally with seamless multi-currency support."
 msgstr ""
 
-#: includes/admin-pages.php:210
+#: includes/admin-pages.php:218
 msgid "Payment Gateways"
 msgstr ""
 
-#: includes/admin-pages.php:214
+#: includes/admin-pages.php:222
 msgid ""
 "Allow users to pay for ad posting using direct bank transfer or cash "
 "payments."
 msgstr ""
 
-#: includes/admin-pages.php:219
+#: includes/admin-pages.php:227
 msgid "PayPal Standard"
 msgstr ""
 
-#: includes/admin-pages.php:220
+#: includes/admin-pages.php:228
 msgid "PayPal Payments Standard, allow users to pay for ads via PayPal."
 msgstr ""
 
-#: includes/admin-pages.php:226
+#: includes/admin-pages.php:234
 msgid "Stripe"
 msgstr ""
 
-#: includes/admin-pages.php:227
+#: includes/admin-pages.php:235
 msgid ""
 "Charge users for Ad postings using credit cards (and some other payment "
 "gateways)."
 msgstr ""
 
-#: includes/admin-pages.php:413
+#: includes/admin-pages.php:421
 msgid "Category Icon"
 msgstr ""
 
-#: includes/admin-pages.php:417
+#: includes/admin-pages.php:425
 msgid "Filter Icons ..."
 msgstr ""
 
-#: includes/admin-pages.php:420
+#: includes/admin-pages.php:428
 msgid "Icons V4"
 msgstr ""
 
-#: includes/admin-pages.php:421
+#: includes/admin-pages.php:429
 msgid "Icons V6"
 msgstr ""
 
