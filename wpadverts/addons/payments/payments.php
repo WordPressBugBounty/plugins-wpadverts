@@ -439,7 +439,7 @@ function adverts_payments_field_payment($field) {
                         <?php if( $visible > 0 ): ?>
                         <?php printf( _n("Visible 1 day", "Visible %d days", $visible, "wpadverts"), $visible) ?>
                         <?php else: ?>
-                        <?php echo esc_html_e( "Never Expires", "wpadverts" ) ?>
+                        <?php esc_html_e( "Never Expires", "wpadverts" ) ?>
                         <?php endif; ?>
                     </span>
 
@@ -507,7 +507,8 @@ function adverts_payments_field_payment_block( $field ) {
         <div class="atw-flex atw-items-center atw-p-3 atw-mb-3 atw-rounded-md atw-border atw-border-solid atw-border-gray-100 -atw-bg-gray-50 <?php if($is_disabled): ?>adverts-listing-type-x-disabled<?php endif; ?>">
 
             <label class="atw-flex-none atw-pr-3 " for="<?php echo esc_attr( $field["name"] . "_" . $option["value"] ) ?>">
-                <input name="<?php echo esc_attr( $field["name"] ) ?>" class="atw-bg-white atw-border atw-border-solid atw-border-300" id="<?php echo esc_attr( $field["name"] . "_" . $option["value"] ) ?>" type="radio" value="<?php echo $post->ID ?>" <?php checked($post->ID, $field["value"]) ?> <?php disabled( $is_disabled ) ?> />
+                <input aria-label="<?php echo esc_html( $post->post_title ) ?>" name="<?php echo esc_attr( $field["name"] ) ?>" class="atw-bg-white atw-border atw-border-solid atw-border-300" id="<?php echo esc_attr( $field["name"] . "_" . $option["value"] ) ?>" type="radio" value="<?php echo $post->ID ?>" <?php checked($post->ID, $field["value"]) ?> <?php disabled( $is_disabled ) ?> />
+
             </label>
 
             <div class="atw-flex-1">
@@ -520,7 +521,7 @@ function adverts_payments_field_payment_block( $field ) {
                         <?php if( $visible > 0 ): ?>
                         <?php printf( _n("Visible 1 day", "Visible %d days", $visible, "wpadverts"), $visible) ?>
                         <?php else: ?>
-                        <?php echo esc_html_e( "Never Expires", "wpadverts" ) ?>
+                        <?php esc_html_e( "Never Expires", "wpadverts" ) ?>
                         <?php endif; ?>
                     </span>
                     <?php do_action("adverts_payments_features", $post->ID ) ?>
@@ -1519,7 +1520,7 @@ function adext_payments_details_box( $payment ) {
                 <?php echo adverts_price( get_post_meta( $listing->ID, "adverts_price", true ) ) ?>
             </span>
             <?php else: ?>
-            <?php esc_html_e( sprintf( __("Listing [%d] no longer exists.", "wpadverts"), $listing_id ) ) ?>
+            <?php printf( esc_html__("Listing [%d] no longer exists.", "wpadverts"), $listing_id ) ?>
             <?php endif; ?>
         </div>
 
@@ -1532,7 +1533,7 @@ function adext_payments_details_box( $payment ) {
                 <a href="<?php echo admin_url('post.php?post='.$post->ID.'&action=edit') ?>"><?php esc_html_e($post->post_title) ?></a>
             </span>
             <?php else: ?>
-            <?php esc_html_e( sprintf( __("Ad [%d] no longer exists.", "wpadverts"), $listing_id ) ) ?>
+            <?php printf( esc_html__("Ad [%d] no longer exists.", "wpadverts"), $listing_id ) ?>
             <?php endif; ?>
         </div>
 
@@ -1634,4 +1635,6 @@ function adext_payments_format_order_id( $post ) {
     }
     
     return apply_filters("adext_payments_format_order_id", "#".str_pad($post_id, 6, "0", STR_PAD_LEFT), $post_id );
+
 }
+

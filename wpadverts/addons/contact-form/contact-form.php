@@ -70,7 +70,7 @@ function adext_contact_form( $post_id ) {
                 <strong class="wpadverts-reveal-wrap">
                     <span class="wpadverts-reveal-partial-1"><?php echo esc_html( $ph1 ) ?></span>
                     ...
-                    <a href="#" class="wpadverts-reveal-button" style="font-weight: normal; font-size:0.9rem"><?php echo esc_html_e( "show phone", "wpadverts" ) ?></a>
+                    <a href="#" class="wpadverts-reveal-button" style="font-weight: normal; font-size:0.9rem"><?php esc_html_e( "show phone", "wpadverts" ) ?></a>
                 </strong>
                 <a href="#" class="wpadverts-reveal-final" data-partial="<?php echo $ph2 ?>" style="display: none"></a>
                 <span class="adverts-icon-phone"></span>
@@ -494,8 +494,10 @@ function adext_contact_form_ajax_submit() {
         do_action( "adext_contact_form_send", $post_id, $form );
             
         // delete uploaded files ($form)
-        $uniqid = sanitize_file_name( adverts_request( "wpadverts-form-upload-uniqid" ) );
-        adext_contact_form_delete_tmp_files( $form->get_scheme(), $uniqid );
+        $uniqid = sanitize_file_name( adverts_request( "wpadverts-form-upload-uniqid", "" ) );
+        if( $uniqid !== "" ) {
+            adext_contact_form_delete_tmp_files( $form->get_scheme(), $uniqid );
+        }
             
         $bind = array();
         $bind["_wpadverts_checksum"] = adverts_request( "_wpadverts_checksum" );

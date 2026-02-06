@@ -1,14 +1,14 @@
-# Copyright (C) 2025 Greg Winiarski
+# Copyright (C) 2026 Greg Winiarski
 # This file is distributed under the same license as the WP Adverts package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Adverts 2.2.6\n"
+"Project-Id-Version: WP Adverts 2.2.11\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpadverts\n"
-"POT-Creation-Date: 2025-08-07 10:33:52+00:00\n"
+"POT-Creation-Date: 2026-01-05 13:41:58+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en\n"
@@ -34,7 +34,7 @@ msgstr ""
 
 #: addons/bank-transfer/bank-transfer.php:63
 #: addons/payments/includes/admin-pages.php:704
-#: blocks/single-data-table/index.php:201 includes/class-rest-blocks.php:193
+#: blocks/single-data-table/index.php:201 includes/class-rest-blocks.php:190
 #: includes/defaults.php:56
 msgid "Contact Person"
 msgstr ""
@@ -43,7 +43,7 @@ msgstr ""
 #: addons/payments/admin/payment-history-list.php:80
 #: addons/payments/includes/admin-pages.php:714 includes/defaults.php:66
 #: includes/defaults.php:336 includes/defaults.php:346
-#: includes/functions-blocks.php:956 includes/functions.php:2751
+#: includes/functions-blocks.php:960 includes/functions.php:2751
 msgid "Email"
 msgstr ""
 
@@ -69,9 +69,9 @@ msgstr ""
 
 #: addons/bank-transfer/includes/admin-pages.php:47
 #: addons/contact-form/contact-form.php:156
-#: addons/contact-form/contact-form.php:516
+#: addons/contact-form/contact-form.php:518
 #: addons/contact-form/includes/admin-pages.php:62
-#: addons/contact-form/includes/class-block-details.php:311
+#: addons/contact-form/includes/class-block-details.php:314
 #: addons/core/includes/admin-pages.php:91
 #: addons/core/includes/admin-pages.php:171
 #: addons/emails/includes/class-emails-admin.php:85
@@ -93,7 +93,7 @@ msgid "Payment gateway name visible in the frontend when making a payment."
 msgstr ""
 
 #: addons/bank-transfer/includes/admin-pages.php:74
-#: addons/contact-form/contact-form.php:584
+#: addons/contact-form/contact-form.php:586
 msgid "Message"
 msgstr ""
 
@@ -127,25 +127,25 @@ msgstr ""
 #: addons/contact-form/contact-form.php:80
 #: addons/contact-form/includes/class-block-details.php:102
 #: addons/contact-form/includes/class-block-details.php:123
-#: includes/functions-blocks.php:961 includes/functions.php:2746
+#: includes/functions-blocks.php:965 includes/functions.php:2746
 msgid "Phone"
 msgstr ""
 
 #: addons/contact-form/contact-form.php:149
-#: addons/contact-form/contact-form.php:507
-#: addons/contact-form/includes/class-block-details.php:304
+#: addons/contact-form/contact-form.php:509
+#: addons/contact-form/includes/class-block-details.php:307
 msgid "Your message has been sent."
 msgstr ""
 
-#: addons/contact-form/contact-form.php:552
+#: addons/contact-form/contact-form.php:554
 msgid "Your Name"
 msgstr ""
 
-#: addons/contact-form/contact-form.php:562
+#: addons/contact-form/contact-form.php:564
 msgid "Your Email"
 msgstr ""
 
-#: addons/contact-form/contact-form.php:573
+#: addons/contact-form/contact-form.php:575
 #: addons/emails/includes/class-emails-admin.php:361
 msgid "Subject"
 msgstr ""
@@ -937,7 +937,7 @@ msgid "Payment Log"
 msgstr ""
 
 #: addons/payments/admin/payment-history-list.php:16
-#: addons/payments/payments.php:1118
+#: addons/payments/payments.php:1119
 msgid "Payment History"
 msgstr ""
 
@@ -951,6 +951,11 @@ msgstr ""
 #: addons/payments/admin/pricing-list.php:33
 #: addons/payments/admin/pricing-list.php:116
 msgid "Bulk Actions"
+msgstr ""
+
+#: addons/payments/admin/payment-history-list.php:43
+#: addons/payments/admin/payment-history-list.php:154
+msgid "Set status: %s"
 msgstr ""
 
 #: addons/payments/admin/payment-history-list.php:45
@@ -991,7 +996,7 @@ msgid "Hide Free"
 msgstr ""
 
 #: addons/payments/admin/payment-history-list.php:78
-#: blocks/single-data-table/index.php:145 includes/class-rest-blocks.php:161
+#: blocks/single-data-table/index.php:145 includes/class-rest-blocks.php:158
 msgid "ID"
 msgstr ""
 
@@ -1050,7 +1055,7 @@ msgstr ""
 #: addons/styling/includes/admin-pages.php:84 blocks/list/index.php:168
 #: blocks/manage/class-manage-engine.php:40 blocks/search/index.php:140
 #: blocks/single-data-table/index.php:152 includes/admin-post-type.php:575
-#: includes/class-rest-blocks.php:165 includes/class-types-admin.php:616
+#: includes/class-rest-blocks.php:162 includes/class-types-admin.php:616
 #: includes/class-widget-ads.php:77 includes/class-widget-ads.php:133
 #: includes/class-widget-categories.php:76 includes/defaults.php:96
 #: includes/gallery.php:460 includes/shortcodes.php:110
@@ -1062,7 +1067,7 @@ msgstr ""
 #: blocks/manage/class-manage-engine.php:33 blocks/search/index.php:133
 #: blocks/single-data-table/index.php:222
 #: blocks/single-data-table/index.php:243 includes/admin-post-type.php:576
-#: includes/class-rest-blocks.php:205 includes/class-rest-blocks.php:251
+#: includes/class-rest-blocks.php:202 includes/class-rest-blocks.php:248
 #: includes/class-widget-ads.php:138 includes/defaults.php:142
 #: includes/shortcodes.php:103
 msgid "Price"
@@ -1079,13 +1084,13 @@ msgstr ""
 
 #: addons/payments/admin/pricing-list.php:75
 #: addons/payments/includes/admin-pages.php:809
-#: addons/payments/payments.php:1485
+#: addons/payments/payments.php:1486
 msgid "Renewal"
 msgstr ""
 
 #: addons/payments/admin/pricing-list.php:84 addons/payments/payments.php:343
 #: addons/payments/payments.php:398 addons/payments/payments.php:482
-#: addons/payments/payments.php:935
+#: addons/payments/payments.php:936
 msgid "Free"
 msgstr ""
 
@@ -1216,7 +1221,7 @@ msgid "Pending Payment"
 msgstr ""
 
 #: addons/payments/includes/admin-pages.php:685
-#: blocks/manage/class-manage-engine.php:322
+#: blocks/manage/class-manage-engine.php:332
 #: includes/class-moderate-admin.php:7 includes/class-types-admin.php:114
 #: includes/class-types-admin.php:149 includes/class-updates-manager.php:332
 #: templates/manage-edit.php:74
@@ -1259,8 +1264,8 @@ msgstr ""
 msgid "Number of days the Ad will be visible."
 msgstr ""
 
-#: addons/payments/includes/ajax.php:105 addons/payments/payments.php:785
-#: addons/payments/payments.php:1287
+#: addons/payments/includes/ajax.php:105 addons/payments/payments.php:786
+#: addons/payments/payments.php:1288
 msgid "Complete Payment"
 msgstr ""
 
@@ -1465,7 +1470,7 @@ msgid_plural "Refunded <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: addons/payments/payments.php:320 addons/payments/payments.php:906
+#: addons/payments/payments.php:320 addons/payments/payments.php:907
 msgid "Listing Information"
 msgstr ""
 
@@ -1473,86 +1478,94 @@ msgstr ""
 msgid "Listing"
 msgstr ""
 
-#: addons/payments/payments.php:440 addons/payments/payments.php:521
+#: addons/payments/payments.php:440 addons/payments/payments.php:522
 msgid "Visible 1 day"
 msgid_plural "Visible %d days"
 msgstr[0] ""
 msgstr[1] ""
 
-#: addons/payments/payments.php:442 addons/payments/payments.php:523
+#: addons/payments/payments.php:442 addons/payments/payments.php:524
 #: includes/admin-post-type.php:291 includes/admin-post-type.php:343
 #: includes/admin-post-type.php:351
 msgid "Never Expires"
 msgstr ""
 
-#: addons/payments/payments.php:629
+#: addons/payments/payments.php:630
 msgid ""
 "<p><strong>Your Payment Is Required</strong><p>Please complete payment for "
 "the <em>'%s'</em> Ad posting to have it published.</p>"
 msgstr ""
 
-#: addons/payments/payments.php:634
+#: addons/payments/payments.php:635
 msgid ""
 "<div><strong>Your Payment Is Required</strong></div><div>Please complete "
 "payment for the <em>'%s'</em> Ad posting to have it published.</div>"
 msgstr ""
 
-#: addons/payments/payments.php:826 addons/payments/payments.php:854
+#: addons/payments/payments.php:827 addons/payments/payments.php:855
 msgid "Renew Ad"
 msgstr ""
 
-#: addons/payments/payments.php:895
+#: addons/payments/payments.php:896
 msgid ""
 "Cannot renew Ads with status 'pending', <a href=\"%s\">cancel and go "
 "back</a>."
 msgstr ""
 
-#: addons/payments/payments.php:977 addons/payments/payments.php:993
+#: addons/payments/payments.php:978 addons/payments/payments.php:994
 msgid "Renew"
 msgstr ""
 
-#: addons/payments/payments.php:1018 addons/payments/payments.php:1081
+#: addons/payments/payments.php:1019 addons/payments/payments.php:1082
 msgid "Renew <strong>%s</strong> or <a href=\"%s\">cancel and go back</a>."
 msgstr ""
 
-#: addons/payments/payments.php:1049
+#: addons/payments/payments.php:1050
 msgid "Free Renewals cannot be used more than once every %d days."
 msgstr ""
 
-#: addons/payments/payments.php:1052
+#: addons/payments/payments.php:1053
 msgid "Ad <strong>%s</strong> renewed. <a href=\"%s\">Go back to Ads list</a>."
 msgstr ""
 
-#: addons/payments/payments.php:1064
+#: addons/payments/payments.php:1065
 msgid "Free Renewal automatically marked as completed."
 msgstr ""
 
-#: addons/payments/payments.php:1082
+#: addons/payments/payments.php:1083
 msgid "Select renewal option and click \"Renew\" button."
 msgstr ""
 
-#: addons/payments/payments.php:1117
+#: addons/payments/payments.php:1118
 msgid "Adverts Payment History"
 msgstr ""
 
-#: addons/payments/payments.php:1246 addons/payments/payments.php:1286
+#: addons/payments/payments.php:1247 addons/payments/payments.php:1287
 msgid "Inactive — Waiting for payment."
 msgstr ""
 
-#: addons/payments/payments.php:1483
+#: addons/payments/payments.php:1484
 msgid "Posting"
 msgstr ""
 
-#: addons/payments/payments.php:1508
+#: addons/payments/payments.php:1509
 msgid "Purchase Type"
 msgstr ""
 
-#: addons/payments/payments.php:1515
+#: addons/payments/payments.php:1516
 msgid "Listing Type"
 msgstr ""
 
-#: addons/payments/payments.php:1527
+#: addons/payments/payments.php:1523
+msgid "Listing [%d] no longer exists."
+msgstr ""
+
+#: addons/payments/payments.php:1528
 msgid "Purchased Item"
+msgstr ""
+
+#: addons/payments/payments.php:1536
+msgid "Ad [%d] no longer exists."
 msgstr ""
 
 #: addons/payments/templates/add-payment.php:15
@@ -1888,8 +1901,8 @@ msgid "Category"
 msgstr ""
 
 #: blocks/details/index.php:101 blocks/single-data-table/index.php:229
-#: blocks/single-data-table/index.php:236 includes/class-rest-blocks.php:209
-#: includes/class-rest-blocks.php:247 includes/class-widget-ads.php:98
+#: blocks/single-data-table/index.php:236 includes/class-rest-blocks.php:206
+#: includes/class-rest-blocks.php:244 includes/class-widget-ads.php:98
 #: includes/defaults.php:154 templates/single.php:60
 msgid "Location"
 msgstr ""
@@ -1901,8 +1914,8 @@ msgstr ""
 
 #: blocks/list/index.php:154 blocks/list/index.php:183
 #: blocks/list/index.php:184 blocks/manage/class-manage-engine.php:26
-#: blocks/manage/class-manage-engine.php:111
-#: blocks/manage/class-manage-engine.php:112 blocks/search/index.php:126
+#: blocks/manage/class-manage-engine.php:121
+#: blocks/manage/class-manage-engine.php:122 blocks/search/index.php:126
 #: blocks/search/index.php:149 blocks/search/index.php:150
 #: includes/class-widget-ads.php:128 includes/shortcodes.php:96
 #: includes/shortcodes.php:119 includes/shortcodes.php:120
@@ -1911,7 +1924,7 @@ msgstr ""
 
 #: blocks/list/index.php:156 blocks/list/index.php:184
 #: blocks/manage/class-manage-engine.php:28
-#: blocks/manage/class-manage-engine.php:112 blocks/search/index.php:128
+#: blocks/manage/class-manage-engine.php:122 blocks/search/index.php:128
 #: blocks/search/index.php:150 includes/shortcodes.php:98
 #: includes/shortcodes.php:120
 msgid "Newest First"
@@ -1951,11 +1964,19 @@ msgid "Random Order"
 msgstr ""
 
 #: blocks/list/index.php:184 blocks/list/index.php:216
-#: blocks/manage/class-manage-engine.php:112
-#: blocks/manage/class-manage-engine.php:142 blocks/search/index.php:150
+#: blocks/manage/class-manage-engine.php:122
+#: blocks/manage/class-manage-engine.php:152 blocks/search/index.php:150
 #: blocks/search/index.php:180 includes/shortcodes.php:120
 #: includes/shortcodes.php:150
 msgid "Sort By: %s - %s"
+msgstr ""
+
+#: blocks/list/templates/list.php:86
+msgid "Icon for list view"
+msgstr ""
+
+#: blocks/list/templates/list.php:89
+msgid "Icon for grid view"
 msgstr ""
 
 #: blocks/list/templates/list.php:101
@@ -1978,57 +1999,57 @@ msgstr ""
 msgid "There aren't any results matching your search query."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:54
+#: blocks/manage/class-manage-engine.php:64
 msgid "Only logged in users can access this page."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:63
+#: blocks/manage/class-manage-engine.php:73
 #: blocks/single-contact/templates/contact-disabled.php:28
 msgid "Login"
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:64
+#: blocks/manage/class-manage-engine.php:74
 #: blocks/single-contact/templates/contact-disabled.php:32
 msgid "Register"
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:168
+#: blocks/manage/class-manage-engine.php:178
 msgid "Manage"
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:232 includes/shortcodes.php:414
+#: blocks/manage/class-manage-engine.php:242 includes/shortcodes.php:414
 #: includes/shortcodes.php:518
 msgid "Ad does not exist."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:240 includes/shortcodes.php:424
+#: blocks/manage/class-manage-engine.php:250 includes/shortcodes.php:424
 #: includes/shortcodes.php:528
 msgid "You do not own this Ad."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:250 includes/shortcodes.php:436
+#: blocks/manage/class-manage-engine.php:260 includes/shortcodes.php:436
 #: includes/shortcodes.php:540
 msgid "Incorrect post status [%s]."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:289 includes/shortcodes.php:477
+#: blocks/manage/class-manage-engine.php:299 includes/shortcodes.php:477
 msgid "Post has been updated."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:300 includes/shortcodes.php:488
+#: blocks/manage/class-manage-engine.php:310 includes/shortcodes.php:488
 msgid "Cannot update. There are errors in your form."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:338 includes/gallery.php:347
+#: blocks/manage/class-manage-engine.php:348 includes/gallery.php:347
 #: templates/manage.php:56
 msgid "View"
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:350
+#: blocks/manage/class-manage-engine.php:360
 msgid "Delete ..."
 msgstr ""
 
-#: blocks/manage/class-manage-engine.php:384 templates/manage-edit.php:69
+#: blocks/manage/class-manage-engine.php:394 templates/manage-edit.php:69
 msgid ""
 "<strong>Important Note.</strong> After submitting changes your Ad will be "
 "held for moderation. It will become active again once the Administrator "
@@ -2191,10 +2212,10 @@ msgid "Only logged-in members can contact sellers."
 msgstr ""
 
 #: blocks/single-contact/index.php:80
-msgid "Please login or register to to send a message."
+msgid "Please login or register to send a message."
 msgstr ""
 
-#: blocks/single-data-table/index.php:159 includes/class-rest-blocks.php:169
+#: blocks/single-data-table/index.php:159 includes/class-rest-blocks.php:166
 #: includes/class-types-admin.php:620
 msgid "Excerpt"
 msgstr ""
@@ -2210,11 +2231,11 @@ msgstr ""
 msgid "Modified"
 msgstr ""
 
-#: blocks/single-data-table/index.php:208 includes/class-rest-blocks.php:197
+#: blocks/single-data-table/index.php:208 includes/class-rest-blocks.php:194
 msgid "Contact Email"
 msgstr ""
 
-#: blocks/single-data-table/index.php:215 includes/class-rest-blocks.php:201
+#: blocks/single-data-table/index.php:215 includes/class-rest-blocks.php:198
 msgid "Contact Phone"
 msgstr ""
 
@@ -2426,6 +2447,10 @@ msgstr ""
 msgid ""
 "Charge users for Ad postings using credit cards (and some other payment "
 "gateways)."
+msgstr ""
+
+#: includes/admin-pages.php:292
+msgid "Module [%s] does not exist."
 msgstr ""
 
 #: includes/admin-pages.php:421
@@ -2756,35 +2781,35 @@ msgid ""
 "of security keys in your wp-config.php file will be used."
 msgstr ""
 
-#: includes/class-rest-blocks.php:173
+#: includes/class-rest-blocks.php:170
 msgid "Content"
 msgstr ""
 
-#: includes/class-rest-blocks.php:177
+#: includes/class-rest-blocks.php:174
 msgid "Post Date"
 msgstr ""
 
-#: includes/class-rest-blocks.php:181
+#: includes/class-rest-blocks.php:178
 msgid "Post Date (GMT)"
 msgstr ""
 
-#: includes/class-rest-blocks.php:185
+#: includes/class-rest-blocks.php:182
 msgid "Modified Date"
 msgstr ""
 
-#: includes/class-rest-blocks.php:189
+#: includes/class-rest-blocks.php:186
 msgid "Modified Date (GMT)"
 msgstr ""
 
-#: includes/class-rest-blocks.php:213
+#: includes/class-rest-blocks.php:210
 msgid "Location (Formatted)"
 msgstr ""
 
-#: includes/class-rest-blocks.php:217
+#: includes/class-rest-blocks.php:214
 msgid "Price (Formatted)"
 msgstr ""
 
-#: includes/class-rest-blocks.php:221
+#: includes/class-rest-blocks.php:218
 msgid "Post date (Formatted)"
 msgstr ""
 
@@ -3245,35 +3270,35 @@ msgstr ""
 msgid "Every 5 minutes"
 msgstr ""
 
-#: includes/functions-blocks.php:763 includes/functions-blocks.php:780
+#: includes/functions-blocks.php:767 includes/functions-blocks.php:784
 msgid "~ no title ~"
 msgstr ""
 
-#: includes/functions-blocks.php:805
+#: includes/functions-blocks.php:809
 msgid "Builtin Templates"
 msgstr ""
 
-#: includes/functions-blocks.php:811
+#: includes/functions-blocks.php:815
 msgid "Default Block Template"
 msgstr ""
 
-#: includes/functions-blocks.php:816
+#: includes/functions-blocks.php:820
 msgid "Template with a sidebar"
 msgstr ""
 
-#: includes/functions-blocks.php:826
+#: includes/functions-blocks.php:830
 msgid "Draft Templates"
 msgstr ""
 
-#: includes/functions-blocks.php:840
+#: includes/functions-blocks.php:844
 msgid "WP Templates"
 msgstr ""
 
-#: includes/functions-blocks.php:924
+#: includes/functions-blocks.php:928
 msgid "Show Contact Info"
 msgstr ""
 
-#: includes/functions-blocks.php:937
+#: includes/functions-blocks.php:941
 msgid "Reveal Contact Info"
 msgstr ""
 
