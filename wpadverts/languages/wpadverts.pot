@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the WP Adverts package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Adverts 2.2.11\n"
+"Project-Id-Version: WP Adverts 2.3.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpadverts\n"
-"POT-Creation-Date: 2026-01-05 13:41:58+00:00\n"
+"POT-Creation-Date: 2026-03-02 14:58:00+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -68,8 +68,8 @@ msgid "Settings updated."
 msgstr ""
 
 #: addons/bank-transfer/includes/admin-pages.php:47
-#: addons/contact-form/contact-form.php:156
-#: addons/contact-form/contact-form.php:518
+#: addons/contact-form/contact-form.php:159
+#: addons/contact-form/contact-form.php:521
 #: addons/contact-form/includes/admin-pages.php:62
 #: addons/contact-form/includes/class-block-details.php:314
 #: addons/core/includes/admin-pages.php:91
@@ -93,7 +93,7 @@ msgid "Payment gateway name visible in the frontend when making a payment."
 msgstr ""
 
 #: addons/bank-transfer/includes/admin-pages.php:74
-#: addons/contact-form/contact-form.php:586
+#: addons/contact-form/contact-form.php:589
 msgid "Message"
 msgstr ""
 
@@ -131,21 +131,21 @@ msgstr ""
 msgid "Phone"
 msgstr ""
 
-#: addons/contact-form/contact-form.php:149
-#: addons/contact-form/contact-form.php:509
+#: addons/contact-form/contact-form.php:152
+#: addons/contact-form/contact-form.php:512
 #: addons/contact-form/includes/class-block-details.php:307
 msgid "Your message has been sent."
 msgstr ""
 
-#: addons/contact-form/contact-form.php:554
+#: addons/contact-form/contact-form.php:557
 msgid "Your Name"
 msgstr ""
 
-#: addons/contact-form/contact-form.php:564
+#: addons/contact-form/contact-form.php:567
 msgid "Your Email"
 msgstr ""
 
-#: addons/contact-form/contact-form.php:575
+#: addons/contact-form/contact-form.php:578
 #: addons/emails/includes/class-emails-admin.php:361
 msgid "Subject"
 msgstr ""
