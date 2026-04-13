@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the WP Adverts package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Adverts 2.3.0\n"
+"Project-Id-Version: WP Adverts 2.3.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpadverts\n"
-"POT-Creation-Date: 2026-03-02 14:58:00+00:00\n"
+"POT-Creation-Date: 2026-04-13 09:31:13+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1264,7 +1264,19 @@ msgstr ""
 msgid "Number of days the Ad will be visible."
 msgstr ""
 
-#: addons/payments/includes/ajax.php:105 addons/payments/payments.php:786
+#: addons/payments/includes/ajax.php:37
+msgid "Incorrect user nonce."
+msgstr ""
+
+#: addons/payments/includes/ajax.php:46
+msgid "Incorrect object type."
+msgstr ""
+
+#: addons/payments/includes/ajax.php:55
+msgid "You do not own this payment."
+msgstr ""
+
+#: addons/payments/includes/ajax.php:135 addons/payments/payments.php:786
 #: addons/payments/payments.php:1288
 msgid "Complete Payment"
 msgstr ""
@@ -1578,8 +1590,8 @@ msgstr ""
 msgid "No Payment Gateway Enabled!"
 msgstr ""
 
-#: addons/payments/templates/add-payment.php:44
-#: addons/payments/templates/publish-payment.php:63
+#: addons/payments/templates/add-payment.php:46
+#: addons/payments/templates/publish-payment.php:65
 msgid "Place Order"
 msgstr ""
 
@@ -1587,7 +1599,7 @@ msgstr ""
 msgid "Select Payment Method"
 msgstr ""
 
-#: addons/payments/templates/publish-payment.php:52
+#: addons/payments/templates/publish-payment.php:54
 msgid "Fill Payment Form"
 msgstr ""
 
