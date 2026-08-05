@@ -193,7 +193,7 @@
         font-size: 1rem;
         line-height: 1.5rem;
         --tw-text-opacity: 1;
-        color: rgb(75 85 99 / var(--tw-text-opacity));
+        color: rgb(75 85 99 / var(--tw-text-opacity, 1));
 }
 .wpadverts-form .wpa-field-label-text {
         line-height: 1;
@@ -212,7 +212,7 @@
         font-weight: 700;
         line-height: 1;
         --tw-text-opacity: 1;
-        color: rgb(220 38 38 / var(--tw-text-opacity));
+        color: rgb(220 38 38 / var(--tw-text-opacity, 1));
 }
 .wpadverts-form .wpa-field-input {
         display: block;
@@ -222,7 +222,7 @@
         font-size: 0.875rem;
         line-height: 1.25rem;
         --tw-text-opacity: 1;
-        color: rgb(107 114 128 / var(--tw-text-opacity));
+        color: rgb(107 114 128 / var(--tw-text-opacity, 1));
 }
 .wpadverts-form .wpa-form-buttons {
         margin-top: 0.75rem;
@@ -232,7 +232,7 @@
         justify-content: flex-end;
         border-radius: 0.375rem;
         --tw-bg-opacity: 1;
-        background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+        background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
         padding-bottom: 0.75rem;
 }
 @media (min-width: 768px) {
@@ -318,7 +318,7 @@
     .wpadverts-form input[type=radio][readonly=readonly] {
         cursor: not-allowed !important;
         --tw-bg-opacity: 1 !important;
-        background-color: rgb(243 244 246 / var(--tw-bg-opacity)) !important;
+        background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1)) !important;
 }
 .wpadverts-form input[type=text].wpadverts-autocomplete {
         cursor: pointer;
@@ -331,44 +331,44 @@
     .wpadverts-form.wpa-flat .wpa-input-alike,
     .wpadverts-form.wpa-flat textarea {
         --tw-border-opacity: 1;
-        border-color: rgba(var(--wpa-color-gray-300), var(--tw-border-opacity));
+        border-color: rgba(var(--wpa-color-gray-300), var(--tw-border-opacity, 1));
         --tw-bg-opacity: 1;
-        background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+        background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
         --tw-text-opacity: 1;
-        color: rgba(var(--wpa-color-gray-700), var(--tw-text-opacity));
+        color: rgba(var(--wpa-color-gray-700), var(--tw-text-opacity, 1));
 }
 .wpadverts-form.wpa-flat input[type=text]::-moz-placeholder, .wpadverts-form.wpa-flat .wpa-input-alike::-moz-placeholder, .wpadverts-form.wpa-flat textarea::-moz-placeholder {
         --tw-placeholder-opacity: 1;
-        color: rgba(var(--wpa-color-gray-500), var(--tw-placeholder-opacity));
+        color: rgba(var(--wpa-color-gray-500), var(--tw-placeholder-opacity, 1));
 }
 .wpadverts-form.wpa-flat input[type=text]::placeholder,
     .wpadverts-form.wpa-flat .wpa-input-alike::placeholder,
     .wpadverts-form.wpa-flat textarea::placeholder {
         --tw-placeholder-opacity: 1;
-        color: rgba(var(--wpa-color-gray-500), var(--tw-placeholder-opacity));
+        color: rgba(var(--wpa-color-gray-500), var(--tw-placeholder-opacity, 1));
 }
 .wpadverts-form.wpa-flat select {
         --tw-border-opacity: 1;
-        border-color: rgba(var(--wpa-color-gray-300), var(--tw-border-opacity));
+        border-color: rgba(var(--wpa-color-gray-300), var(--tw-border-opacity, 1));
         --tw-bg-opacity: 1;
-        background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+        background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
         --tw-text-opacity: 1;
-        color: rgba(var(--wpa-color-gray-700), var(--tw-text-opacity));
+        color: rgba(var(--wpa-color-gray-700), var(--tw-text-opacity, 1));
 }
 .wpadverts-form.wpa-flat select::-moz-placeholder {
         --tw-placeholder-opacity: 1;
-        color: rgba(var(--wpa-color-gray-500), var(--tw-placeholder-opacity));
+        color: rgba(var(--wpa-color-gray-500), var(--tw-placeholder-opacity, 1));
 }
 .wpadverts-form.wpa-flat select::placeholder {
         --tw-placeholder-opacity: 1;
-        color: rgba(var(--wpa-color-gray-500), var(--tw-placeholder-opacity));
+        color: rgba(var(--wpa-color-gray-500), var(--tw-placeholder-opacity, 1));
 }
 .wpadverts-form.wpa-flat input[type=checkbox],
     .wpadverts-form.wpa-flat input[type=radio] {
         --tw-border-opacity: 1;
-        border-color: rgba(var(--wpa-color-gray-300), var(--tw-border-opacity));
+        border-color: rgba(var(--wpa-color-gray-300), var(--tw-border-opacity, 1));
         --tw-bg-opacity: 1;
-        background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+        background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
         padding: 0px;
 }
 .wpadverts-form.wpa-flat input[type=radio] {
@@ -379,44 +379,44 @@
     .wpadverts-form.wpa-solid .wpa-input-alike,
     .wpadverts-form.wpa-solid textarea {
         --tw-border-opacity: 1;
-        border-color: rgba(var(--wpa-color-gray-100), var(--tw-border-opacity));
+        border-color: rgba(var(--wpa-color-gray-100), var(--tw-border-opacity, 1));
         --tw-bg-opacity: 1;
-        background-color: rgba(var(--wpa-color-gray-100), var(--tw-bg-opacity));
+        background-color: rgba(var(--wpa-color-gray-100), var(--tw-bg-opacity, 1));
         --tw-text-opacity: 1;
-        color: rgba(var(--wpa-color-gray-500), var(--tw-text-opacity));
+        color: rgba(var(--wpa-color-gray-500), var(--tw-text-opacity, 1));
 }
 .wpadverts-form.wpa-solid input[type=text]::-moz-placeholder, .wpadverts-form.wpa-solid .wpa-input-alike::-moz-placeholder, .wpadverts-form.wpa-solid textarea::-moz-placeholder {
         --tw-placeholder-opacity: 1;
-        color: rgba(var(--wpa-color-gray-500), var(--tw-placeholder-opacity));
+        color: rgba(var(--wpa-color-gray-500), var(--tw-placeholder-opacity, 1));
 }
 .wpadverts-form.wpa-solid input[type=text]::placeholder,
     .wpadverts-form.wpa-solid .wpa-input-alike::placeholder,
     .wpadverts-form.wpa-solid textarea::placeholder {
         --tw-placeholder-opacity: 1;
-        color: rgba(var(--wpa-color-gray-500), var(--tw-placeholder-opacity));
+        color: rgba(var(--wpa-color-gray-500), var(--tw-placeholder-opacity, 1));
 }
 .wpadverts-form.wpa-solid select {
         --tw-border-opacity: 1;
-        border-color: rgba(var(--wpa-color-gray-100), var(--tw-border-opacity));
+        border-color: rgba(var(--wpa-color-gray-100), var(--tw-border-opacity, 1));
         --tw-bg-opacity: 1;
-        background-color: rgba(var(--wpa-color-gray-100), var(--tw-bg-opacity));
+        background-color: rgba(var(--wpa-color-gray-100), var(--tw-bg-opacity, 1));
         --tw-text-opacity: 1;
-        color: rgba(var(--wpa-color-gray-500), var(--tw-text-opacity));
+        color: rgba(var(--wpa-color-gray-500), var(--tw-text-opacity, 1));
 }
 .wpadverts-form.wpa-solid select::-moz-placeholder {
         --tw-placeholder-opacity: 1;
-        color: rgba(var(--wpa-color-gray-500), var(--tw-placeholder-opacity));
+        color: rgba(var(--wpa-color-gray-500), var(--tw-placeholder-opacity, 1));
 }
 .wpadverts-form.wpa-solid select::placeholder {
         --tw-placeholder-opacity: 1;
-        color: rgba(var(--wpa-color-gray-500), var(--tw-placeholder-opacity));
+        color: rgba(var(--wpa-color-gray-500), var(--tw-placeholder-opacity, 1));
 }
 .wpadverts-form.wpa-solid input[type=checkbox],
     .wpadverts-form.wpa-solid input[type=radio] {
         --tw-border-opacity: 1;
-        border-color: rgb(243 244 246 / var(--tw-border-opacity));
+        border-color: rgb(243 244 246 / var(--tw-border-opacity, 1));
         --tw-bg-opacity: 1;
-        background-color: rgba(var(--wpa-color-gray-100), var(--tw-bg-opacity));
+        background-color: rgba(var(--wpa-color-gray-100), var(--tw-bg-opacity, 1));
 }
 .wpadverts-form.wpa-solid input[type=radio] {
         border-radius: 9999px;
@@ -427,9 +427,9 @@
     .wpadverts-form.wpa-simple textarea {
         box-sizing: border-box;
         --tw-border-opacity: 1;
-        border-color: rgb(209 213 219 / var(--tw-border-opacity));
+        border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
         --tw-bg-opacity: 1;
-        background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+        background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
         --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
         --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
         box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -442,21 +442,21 @@
            -moz-appearance: none;
                 appearance: none;
         --tw-border-opacity: 1;
-        border-color: rgb(209 213 219 / var(--tw-border-opacity));
+        border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
         --tw-bg-opacity: 1;
-        background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+        background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
         background-position: right;
         background-repeat: no-repeat;
         --tw-text-opacity: 1;
-        color: rgb(107 114 128 / var(--tw-text-opacity));
+        color: rgb(107 114 128 / var(--tw-text-opacity, 1));
 }
 .wpadverts-form.wpa-simple select::-moz-placeholder {
         --tw-placeholder-opacity: 1;
-        color: rgb(107 114 128 / var(--tw-placeholder-opacity));
+        color: rgb(107 114 128 / var(--tw-placeholder-opacity, 1));
 }
 .wpadverts-form.wpa-simple select::placeholder {
         --tw-placeholder-opacity: 1;
-        color: rgb(107 114 128 / var(--tw-placeholder-opacity));
+        color: rgb(107 114 128 / var(--tw-placeholder-opacity, 1));
 }
 .wpadverts-form.wpa-simple select {
         --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
@@ -479,11 +479,11 @@
         border-radius: 0.25rem;
         border-width: 1px;
         border-style: solid;
-        border-color: rgb(209 213 219 / var(--tw-border-opacity));
+        border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
         --tw-border-opacity: 1;
-        border-color: rgb(229 231 235 / var(--tw-border-opacity));
+        border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
         --tw-bg-opacity: 1;
-        background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+        background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
         padding: 0px;
         font-size: 1rem;
         line-height: 1.5rem;
@@ -606,11 +606,11 @@
     .wpadverts-form.wpa-focus-simple .wpa-input-alike:focus,
     .wpadverts-form.wpa-focus-simple select:focus {
         --tw-border-opacity: 1;
-        border-color: rgba(var(--wpa-color-primary-light), var(--tw-border-opacity));
+        border-color: rgba(var(--wpa-color-primary-light), var(--tw-border-opacity, 1));
         --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
         --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
         box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
-        --tw-ring-color: rgba(var(--wpa-color-primary-light), var(--tw-ring-opacity));
+        --tw-ring-color: rgba(var(--wpa-color-primary-light), var(--tw-ring-opacity, 1));
         --tw-ring-opacity: 0.5;
 }
 /* FORM PADDING */
@@ -753,7 +753,7 @@
         --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
         box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
         --tw-ring-opacity: 1;
-        --tw-ring-color: rgb(252 165 165 / var(--tw-ring-opacity));
+        --tw-ring-color: rgb(252 165 165 / var(--tw-ring-opacity, 1));
 }
 .wpadverts-form .wpa-field-error .wpa-errors-list {
         margin-left: 0px;
@@ -772,7 +772,7 @@
         padding-bottom: 0.5rem;
         line-height: 1.25rem;
         --tw-text-opacity: 1;
-        color: rgb(220 38 38 / var(--tw-text-opacity));
+        color: rgb(220 38 38 / var(--tw-text-opacity, 1));
 }
 /* FORM INTERLINE */
 .wpadverts-form.wpa-form-interline .wpa-field-wrap {
@@ -783,7 +783,7 @@
                 border-bottom-width: 1px;
                 border-style: solid;
                 --tw-border-opacity: 1;
-                border-color: rgb(243 244 246 / var(--tw-border-opacity));
+                border-color: rgb(243 244 246 / var(--tw-border-opacity, 1));
                 padding-top: 0.75rem;
         }
 }
@@ -796,7 +796,7 @@
                 border-bottom-width: 1px;
                 border-style: solid;
                 --tw-border-opacity: 1;
-                border-color: rgb(243 244 246 / var(--tw-border-opacity));
+                border-color: rgb(243 244 246 / var(--tw-border-opacity, 1));
                 padding-top: 0.75rem;
         }
 }
@@ -819,9 +819,9 @@
         border-top-width: 0px;
         border-style: solid;
         --tw-border-opacity: 1;
-        border-color: rgb(209 213 219 / var(--tw-border-opacity));
+        border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
         --tw-bg-opacity: 1;
-        background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+        background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
         --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
         --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
         box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -839,7 +839,7 @@
 }
 .wpadverts-form .adverts-multiselect-options > label:hover {
         --tw-bg-opacity: 1;
-        background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+        background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
 }
 .wpadverts-form .adverts-multiselect-options > label > input[type=checkbox] {
         display: inline-block;
@@ -875,7 +875,7 @@
     .wpadverts-form.wpa-solid textarea[readonly=readonly],
     .wpadverts-form.wpa-bottom-border textarea[readonly=readonly] {
         --tw-bg-opacity: 1;
-        background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+        background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
         opacity: 0.8;
 }
 /* INPUT WITH BUTTON(S) */
@@ -905,18 +905,18 @@
         align-items: center;
         border-radius: 0.375rem;
         --tw-bg-opacity: 1;
-        background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+        background-color: rgb(107 114 128 / var(--tw-bg-opacity, 1));
         padding-left: 0.5rem;
         padding-right: 0.5rem;
         --tw-text-opacity: 1;
-        color: rgb(255 255 255 / var(--tw-text-opacity));
+        color: rgb(255 255 255 / var(--tw-text-opacity, 1));
         text-decoration-line: none;
 }
 .wpadverts-form .wpa-input-with-btns .wpa-btns-wrap .wpa-btn:hover {
         --tw-bg-opacity: 1;
-        background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+        background-color: rgb(75 85 99 / var(--tw-bg-opacity, 1));
         --tw-text-opacity: 1;
-        color: rgb(255 255 255 / var(--tw-text-opacity));
+        color: rgb(255 255 255 / var(--tw-text-opacity, 1));
         text-decoration-line: none;
 }
 .wpadverts-form .wpa-input-with-btns .wpa-btns-wrap .wpa-btn .wpa-btn-icon {
@@ -950,18 +950,18 @@
         align-items: center;
         border-radius: 0.375rem;
         --tw-bg-opacity: 1;
-        background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+        background-color: rgb(107 114 128 / var(--tw-bg-opacity, 1));
         padding-left: 0.5rem;
         padding-right: 0.5rem;
         --tw-text-opacity: 1;
-        color: rgb(255 255 255 / var(--tw-text-opacity));
+        color: rgb(255 255 255 / var(--tw-text-opacity, 1));
         text-decoration-line: none;
 }
 .wpadverts-mal-button-small:hover {
         --tw-bg-opacity: 1;
-        background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+        background-color: rgb(75 85 99 / var(--tw-bg-opacity, 1));
         --tw-text-opacity: 1;
-        color: rgb(255 255 255 / var(--tw-text-opacity));
+        color: rgb(255 255 255 / var(--tw-text-opacity, 1));
         text-decoration-line: none;
 }
 /* BUTTONS */
@@ -972,11 +972,11 @@
 /* END BUTTONS */
 .advert-is-featured {
         --tw-bg-opacity: 1;
-        background-color: rgb(239 246 255 / var(--tw-bg-opacity));
+        background-color: rgb(239 246 255 / var(--tw-bg-opacity, 1));
 }
 .advert-is-featured:hover {
         --tw-bg-opacity: 1;
-        background-color: rgb(219 234 254 / var(--tw-bg-opacity));
+        background-color: rgb(219 234 254 / var(--tw-bg-opacity, 1));
 }
 .widget {
         margin-top: 1rem;
@@ -989,7 +989,7 @@
 }
 .drag-over .wpadverts-gallery {
         --tw-bg-opacity: 1;
-        background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+        background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
 }
 /* Block / List: switch views */
 .wpa-block-list .wpa-results.wpa-list-view  {
@@ -1057,7 +1057,7 @@
 .js-wpa-view-list.wpa-selected i,
     .js-wpa-view-grid.wpa-selected i {
         --tw-text-opacity: 1;
-        color: rgb(55 65 81 / var(--tw-text-opacity));
+        color: rgb(55 65 81 / var(--tw-text-opacity, 1));
 }
 .wpa-results.wpa-grid-view .wpa-result-meta {
         flex-direction: column;
@@ -1079,7 +1079,7 @@
 .wpa-block-gallery-nav-item:hover,
     .wpa-block-gallery-nav-item.wpa-current {
         --tw-border-opacity: 1;
-        border-color: rgb(156 163 175 / var(--tw-border-opacity));
+        border-color: rgb(156 163 175 / var(--tw-border-opacity, 1));
 }
 .wpa-block-gallery-circles .wpa-block-gallery-circle.wpa-circle-current .wpa-circle-inner {
         border-width: 2px;
@@ -1122,111 +1122,111 @@
     }
 .wpadverts-flash.wpa-style-error {
         --tw-bg-opacity: 1;
-        background-color: rgb(254 226 226 / var(--tw-bg-opacity));
+        background-color: rgb(254 226 226 / var(--tw-bg-opacity, 1));
         --tw-text-opacity: 1;
-        color: rgb(153 27 27 / var(--tw-text-opacity));
+        color: rgb(153 27 27 / var(--tw-text-opacity, 1));
 }
 .wpadverts-flash.wpa-style-error .wpa-flash-icon {
         --tw-text-opacity: 1;
-        color: rgb(248 113 113 / var(--tw-text-opacity));
+        color: rgb(248 113 113 / var(--tw-text-opacity, 1));
 }
 .wpadverts-flash.wpa-style-error a {
         --tw-text-opacity: 1;
-        color: rgb(153 27 27 / var(--tw-text-opacity));
+        color: rgb(153 27 27 / var(--tw-text-opacity, 1));
         text-decoration-line: underline;
 }
 .wpadverts-flash.wpa-style-error a:hover {
         --tw-text-opacity: 1;
-        color: rgb(127 29 29 / var(--tw-text-opacity));
+        color: rgb(127 29 29 / var(--tw-text-opacity, 1));
         text-decoration-line: underline;
 }
 .wpadverts-flash.wpa-style-error .wpa-btn-secondary {
         --tw-border-opacity: 1;
-        border-color: rgb(254 202 202 / var(--tw-border-opacity));
+        border-color: rgb(254 202 202 / var(--tw-border-opacity, 1));
         --tw-bg-opacity: 1;
-        background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+        background-color: rgb(254 202 202 / var(--tw-bg-opacity, 1));
         --tw-text-opacity: 1;
-        color: rgb(153 27 27 / var(--tw-text-opacity));
+        color: rgb(153 27 27 / var(--tw-text-opacity, 1));
 }
 .wpadverts-flash.wpa-style-error .wpa-btn-secondary:hover {
         --tw-border-opacity: 1;
-        border-color: rgb(252 165 165 / var(--tw-border-opacity));
+        border-color: rgb(252 165 165 / var(--tw-border-opacity, 1));
         --tw-bg-opacity: 1;
-        background-color: rgb(252 165 165 / var(--tw-bg-opacity));
+        background-color: rgb(252 165 165 / var(--tw-bg-opacity, 1));
         --tw-text-opacity: 1;
-        color: rgb(127 29 29 / var(--tw-text-opacity));
+        color: rgb(127 29 29 / var(--tw-text-opacity, 1));
 }
 .wpadverts-flash.wpa-style-success {
         --tw-bg-opacity: 1;
-        background-color: rgb(220 252 231 / var(--tw-bg-opacity));
+        background-color: rgb(220 252 231 / var(--tw-bg-opacity, 1));
         --tw-text-opacity: 1;
-        color: rgb(22 101 52 / var(--tw-text-opacity));
+        color: rgb(22 101 52 / var(--tw-text-opacity, 1));
 }
 .wpadverts-flash.wpa-style-success .wpa-flash-icon {
         --tw-text-opacity: 1;
-        color: rgb(34 197 94 / var(--tw-text-opacity));
+        color: rgb(34 197 94 / var(--tw-text-opacity, 1));
 }
 .wpadverts-flash.wpa-style-success a {
         --tw-text-opacity: 1;
-        color: rgb(22 101 52 / var(--tw-text-opacity));
+        color: rgb(22 101 52 / var(--tw-text-opacity, 1));
         text-decoration-line: underline;
 }
 .wpadverts-flash.wpa-style-success a:hover {
         --tw-text-opacity: 1;
-        color: rgb(20 83 45 / var(--tw-text-opacity));
+        color: rgb(20 83 45 / var(--tw-text-opacity, 1));
         text-decoration-line: underline;
 }
 .wpadverts-flash.wpa-style-success .wpa-btn-secondary {
         --tw-border-opacity: 1;
-        border-color: rgb(187 247 208 / var(--tw-border-opacity));
+        border-color: rgb(187 247 208 / var(--tw-border-opacity, 1));
         --tw-bg-opacity: 1;
-        background-color: rgb(187 247 208 / var(--tw-bg-opacity));
+        background-color: rgb(187 247 208 / var(--tw-bg-opacity, 1));
         --tw-text-opacity: 1;
-        color: rgb(22 101 52 / var(--tw-text-opacity));
+        color: rgb(22 101 52 / var(--tw-text-opacity, 1));
 }
 .wpadverts-flash.wpa-style-success .wpa-btn-secondary:hover {
         --tw-border-opacity: 1;
-        border-color: rgb(134 239 172 / var(--tw-border-opacity));
+        border-color: rgb(134 239 172 / var(--tw-border-opacity, 1));
         --tw-bg-opacity: 1;
-        background-color: rgb(134 239 172 / var(--tw-bg-opacity));
+        background-color: rgb(134 239 172 / var(--tw-bg-opacity, 1));
         --tw-text-opacity: 1;
-        color: rgb(20 83 45 / var(--tw-text-opacity));
+        color: rgb(20 83 45 / var(--tw-text-opacity, 1));
 }
 .wpadverts-flash.wpa-style-info {
         --tw-bg-opacity: 1;
-        background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+        background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
         --tw-text-opacity: 1;
-        color: rgb(31 41 55 / var(--tw-text-opacity));
+        color: rgb(31 41 55 / var(--tw-text-opacity, 1));
 }
 .wpadverts-flash.wpa-style-info .wpa-flash-icon {
         --tw-text-opacity: 1;
-        color: rgb(107 114 128 / var(--tw-text-opacity));
+        color: rgb(107 114 128 / var(--tw-text-opacity, 1));
 }
 .wpadverts-flash.wpa-style-info a {
         --tw-text-opacity: 1;
-        color: rgb(31 41 55 / var(--tw-text-opacity));
+        color: rgb(31 41 55 / var(--tw-text-opacity, 1));
         text-decoration-line: underline;
 }
 .wpadverts-flash.wpa-style-info a:hover {
         --tw-text-opacity: 1;
-        color: rgb(17 24 39 / var(--tw-text-opacity));
+        color: rgb(17 24 39 / var(--tw-text-opacity, 1));
         text-decoration-line: underline;
 }
 .wpadverts-flash.wpa-style-info .wpa-btn-secondary {
         --tw-border-opacity: 1;
-        border-color: rgb(229 231 235 / var(--tw-border-opacity));
+        border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
         --tw-bg-opacity: 1;
-        background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+        background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
         --tw-text-opacity: 1;
-        color: rgb(31 41 55 / var(--tw-text-opacity));
+        color: rgb(31 41 55 / var(--tw-text-opacity, 1));
 }
 .wpadverts-flash.wpa-style-info .wpa-btn-secondary:hover {
         --tw-border-opacity: 1;
-        border-color: rgb(209 213 219 / var(--tw-border-opacity));
+        border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
         --tw-bg-opacity: 1;
-        background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+        background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1));
         --tw-text-opacity: 1;
-        color: rgb(17 24 39 / var(--tw-text-opacity));
+        color: rgb(17 24 39 / var(--tw-text-opacity, 1));
 }
 .wpadverts-flash.wpa-layout-normal {
         margin-left: 0px;
@@ -1338,14 +1338,14 @@
         border-width: 1px;
         border-style: solid;
         --tw-border-opacity: 1;
-        border-color: rgb(229 231 235 / var(--tw-border-opacity));
+        border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
         padding-top: 0.75rem;
         padding-bottom: 0.75rem;
         padding-left: 0.75rem;
         padding-right: 0.75rem;
         text-align: center;
         --tw-text-opacity: 1;
-        color: rgb(107 114 128 / var(--tw-text-opacity));
+        color: rgb(107 114 128 / var(--tw-text-opacity, 1));
 }
 @media (min-width: 768px) {
         .wpa-tabs .wpa-tab-link {
@@ -1356,10 +1356,10 @@
 .wpa-tabs .wpa-tab-link.current {
         border-color: transparent;
         --tw-bg-opacity: 1;
-        background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+        background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
         font-weight: 700;
         --tw-text-opacity: 1;
-        color: rgb(31 41 55 / var(--tw-text-opacity));
+        color: rgb(31 41 55 / var(--tw-text-opacity, 1));
 }
 .wpa-tabs .wpa-tab-link .fa-circle-check {
         display: none;
@@ -1388,7 +1388,7 @@
         display: inline-block;
         border-radius: 0.5rem;
         --tw-bg-opacity: 1;
-        background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+        background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         padding-top: 0.75rem;
@@ -1397,7 +1397,7 @@
         line-height: 1.75rem;
         font-weight: 700;
         --tw-text-opacity: 1;
-        color: rgb(55 65 81 / var(--tw-text-opacity));
+        color: rgb(55 65 81 / var(--tw-text-opacity, 1));
         text-decoration-line: none;
 }
 @media (min-width: 768px) {
@@ -1412,9 +1412,9 @@
 }
 .wpadverts-pagination .page-numbers.current {
         --tw-bg-opacity: 1;
-        background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+        background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
         --tw-text-opacity: 1;
-        color: rgb(156 163 175 / var(--tw-text-opacity));
+        color: rgb(156 163 175 / var(--tw-text-opacity, 1));
 }
 .wpa-bulb {
         display: inline-block;
@@ -1428,55 +1428,55 @@
 }
 .wpa-bulb.wpa-bulb-error {
         --tw-bg-opacity: 1;
-        background-color: rgb(254 226 226 / var(--tw-bg-opacity));
+        background-color: rgb(254 226 226 / var(--tw-bg-opacity, 1));
         --tw-text-opacity: 1;
-        color: rgb(239 68 68 / var(--tw-text-opacity));
+        color: rgb(239 68 68 / var(--tw-text-opacity, 1));
 }
 .wpa-bulb.wpa-bulb-error a {
         --tw-text-opacity: 1;
-        color: rgb(185 28 28 / var(--tw-text-opacity));
+        color: rgb(185 28 28 / var(--tw-text-opacity, 1));
         text-decoration-line: underline;
 }
 .wpa-bulb.wpa-bulb-warning {
         --tw-bg-opacity: 1;
-        background-color: rgb(254 243 199 / var(--tw-bg-opacity));
+        background-color: rgb(254 243 199 / var(--tw-bg-opacity, 1));
         --tw-text-opacity: 1;
-        color: rgb(245 158 11 / var(--tw-text-opacity));
+        color: rgb(245 158 11 / var(--tw-text-opacity, 1));
 }
 .wpa-bulb.wpa-bulb-warning a {
         --tw-text-opacity: 1;
-        color: rgb(180 83 9 / var(--tw-text-opacity));
+        color: rgb(180 83 9 / var(--tw-text-opacity, 1));
         text-decoration-line: underline;
 }
 .wpa-bulb.wpa-bulb-info {
         --tw-bg-opacity: 1;
-        background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+        background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
         --tw-text-opacity: 1;
-        color: rgb(107 114 128 / var(--tw-text-opacity));
+        color: rgb(107 114 128 / var(--tw-text-opacity, 1));
 }
 .wpa-bulb.wpa-bulb-info a {
         --tw-text-opacity: 1;
-        color: rgb(55 65 81 / var(--tw-text-opacity));
+        color: rgb(55 65 81 / var(--tw-text-opacity, 1));
         text-decoration-line: underline;
 }
 .wpa-bulb.wpa-bulb-success {
         --tw-bg-opacity: 1;
-        background-color: rgb(220 252 231 / var(--tw-bg-opacity));
+        background-color: rgb(220 252 231 / var(--tw-bg-opacity, 1));
         --tw-text-opacity: 1;
-        color: rgb(34 197 94 / var(--tw-text-opacity));
+        color: rgb(34 197 94 / var(--tw-text-opacity, 1));
 }
 .wpa-bulb.wpa-bulb-success a {
         --tw-text-opacity: 1;
-        color: rgb(21 128 61 / var(--tw-text-opacity));
+        color: rgb(21 128 61 / var(--tw-text-opacity, 1));
         text-decoration-line: underline;
 }
 .wpadverts-modal .wpa-icon-question {
         --tw-bg-opacity: 1;
-        background-color: rgb(254 226 226 / var(--tw-bg-opacity));
+        background-color: rgb(254 226 226 / var(--tw-bg-opacity, 1));
 }
 .wpadverts-modal .wpa-icon-success {
         --tw-bg-opacity: 1;
-        background-color: rgb(220 252 231 / var(--tw-bg-opacity));
+        background-color: rgb(220 252 231 / var(--tw-bg-opacity, 1));
 }
 .wpa-block-categories-item.wpa-item-stacked {
         flex-direction: column;
@@ -2223,7 +2223,7 @@
 }
 .atw-divide-gray-100 > :not([hidden]) ~ :not([hidden]) {
         --tw-divide-opacity: 1;
-        border-color: rgb(243 244 246 / var(--tw-divide-opacity));
+        border-color: rgb(243 244 246 / var(--tw-divide-opacity, 1));
 }
 .atw-self-center {
         align-self: center;
@@ -2251,12 +2251,6 @@
 .atw-break-normal {
         overflow-wrap: normal;
         word-break: normal;
-}
-.atw-break-words {
-        overflow-wrap: break-word;
-}
-.atw-break-all {
-        word-break: break-all;
 }
 .atw-break-keep {
         word-break: keep-all;
@@ -2344,65 +2338,65 @@
 }
 .atw-border-form-gray-100 {
         --tw-border-opacity: 1;
-        border-color: rgba(var(--wpa-color-gray-100), var(--tw-border-opacity));
+        border-color: rgba(var(--wpa-color-gray-100), var(--tw-border-opacity, 1));
 }
 .atw-border-form-gray-300 {
         --tw-border-opacity: 1;
-        border-color: rgba(var(--wpa-color-gray-300), var(--tw-border-opacity));
+        border-color: rgba(var(--wpa-color-gray-300), var(--tw-border-opacity, 1));
 }
 .atw-border-gray-100 {
         --tw-border-opacity: 1;
-        border-color: rgb(243 244 246 / var(--tw-border-opacity));
+        border-color: rgb(243 244 246 / var(--tw-border-opacity, 1));
 }
 .atw-border-gray-200 {
         --tw-border-opacity: 1;
-        border-color: rgb(229 231 235 / var(--tw-border-opacity));
+        border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
 }
 .atw-border-gray-300 {
         --tw-border-opacity: 1;
-        border-color: rgb(209 213 219 / var(--tw-border-opacity));
+        border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
 }
 .atw-border-gray-500 {
         --tw-border-opacity: 1;
-        border-color: rgb(107 114 128 / var(--tw-border-opacity));
+        border-color: rgb(107 114 128 / var(--tw-border-opacity, 1));
 }
 .atw-border-gray-600 {
         --tw-border-opacity: 1;
-        border-color: rgb(75 85 99 / var(--tw-border-opacity));
+        border-color: rgb(75 85 99 / var(--tw-border-opacity, 1));
 }
 .atw-border-gray-800 {
         --tw-border-opacity: 1;
-        border-color: rgb(31 41 55 / var(--tw-border-opacity));
+        border-color: rgb(31 41 55 / var(--tw-border-opacity, 1));
 }
 .atw-border-gray-800\/20 {
         border-color: rgb(31 41 55 / 0.2);
 }
 .atw-border-green-200 {
         --tw-border-opacity: 1;
-        border-color: rgb(187 247 208 / var(--tw-border-opacity));
+        border-color: rgb(187 247 208 / var(--tw-border-opacity, 1));
 }
 .atw-border-green-300 {
         --tw-border-opacity: 1;
-        border-color: rgb(134 239 172 / var(--tw-border-opacity));
+        border-color: rgb(134 239 172 / var(--tw-border-opacity, 1));
 }
 .atw-border-red-200 {
         --tw-border-opacity: 1;
-        border-color: rgb(254 202 202 / var(--tw-border-opacity));
+        border-color: rgb(254 202 202 / var(--tw-border-opacity, 1));
 }
 .atw-border-red-300 {
         --tw-border-opacity: 1;
-        border-color: rgb(252 165 165 / var(--tw-border-opacity));
+        border-color: rgb(252 165 165 / var(--tw-border-opacity, 1));
 }
 .atw-border-transparent {
         border-color: transparent;
 }
 .atw-border-white {
         --tw-border-opacity: 1;
-        border-color: rgb(255 255 255 / var(--tw-border-opacity));
+        border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 .atw-bg-black {
         --tw-bg-opacity: 1;
-        background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+        background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
 }
 .atw-bg-black\/10 {
         background-color: rgb(0 0 0 / 0.1);
@@ -2412,71 +2406,71 @@
 }
 .atw-bg-blue-50 {
         --tw-bg-opacity: 1;
-        background-color: rgb(239 246 255 / var(--tw-bg-opacity));
+        background-color: rgb(239 246 255 / var(--tw-bg-opacity, 1));
 }
 .atw-bg-form-gray-100 {
         --tw-bg-opacity: 1;
-        background-color: rgba(var(--wpa-color-gray-100), var(--tw-bg-opacity));
+        background-color: rgba(var(--wpa-color-gray-100), var(--tw-bg-opacity, 1));
 }
 .atw-bg-gray-100 {
         --tw-bg-opacity: 1;
-        background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+        background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
 }
 .atw-bg-gray-200 {
         --tw-bg-opacity: 1;
-        background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+        background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
 }
 .atw-bg-gray-300 {
         --tw-bg-opacity: 1;
-        background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+        background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1));
 }
 .atw-bg-gray-50 {
         --tw-bg-opacity: 1;
-        background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+        background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
 }
 .atw-bg-gray-500 {
         --tw-bg-opacity: 1;
-        background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+        background-color: rgb(107 114 128 / var(--tw-bg-opacity, 1));
 }
 .atw-bg-gray-600 {
         --tw-bg-opacity: 1;
-        background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+        background-color: rgb(75 85 99 / var(--tw-bg-opacity, 1));
 }
 .atw-bg-green-100 {
         --tw-bg-opacity: 1;
-        background-color: rgb(220 252 231 / var(--tw-bg-opacity));
+        background-color: rgb(220 252 231 / var(--tw-bg-opacity, 1));
 }
 .atw-bg-green-200 {
         --tw-bg-opacity: 1;
-        background-color: rgb(187 247 208 / var(--tw-bg-opacity));
+        background-color: rgb(187 247 208 / var(--tw-bg-opacity, 1));
 }
 .atw-bg-green-300 {
         --tw-bg-opacity: 1;
-        background-color: rgb(134 239 172 / var(--tw-bg-opacity));
+        background-color: rgb(134 239 172 / var(--tw-bg-opacity, 1));
 }
 .atw-bg-red-100 {
         --tw-bg-opacity: 1;
-        background-color: rgb(254 226 226 / var(--tw-bg-opacity));
+        background-color: rgb(254 226 226 / var(--tw-bg-opacity, 1));
 }
 .atw-bg-red-200 {
         --tw-bg-opacity: 1;
-        background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+        background-color: rgb(254 202 202 / var(--tw-bg-opacity, 1));
 }
 .atw-bg-red-300 {
         --tw-bg-opacity: 1;
-        background-color: rgb(252 165 165 / var(--tw-bg-opacity));
+        background-color: rgb(252 165 165 / var(--tw-bg-opacity, 1));
 }
 .atw-bg-red-700 {
         --tw-bg-opacity: 1;
-        background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+        background-color: rgb(185 28 28 / var(--tw-bg-opacity, 1));
 }
 .atw-bg-white {
         --tw-bg-opacity: 1;
-        background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+        background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 .atw-bg-yellow-100 {
         --tw-bg-opacity: 1;
-        background-color: rgb(254 243 199 / var(--tw-bg-opacity));
+        background-color: rgb(254 243 199 / var(--tw-bg-opacity, 1));
 }
 .atw-bg-opacity-75 {
         --tw-bg-opacity: 0.75;
@@ -2832,95 +2826,95 @@
 }
 .atw-text-form-gray-500 {
         --tw-text-opacity: 1;
-        color: rgba(var(--wpa-color-gray-500), var(--tw-text-opacity));
+        color: rgba(var(--wpa-color-gray-500), var(--tw-text-opacity, 1));
 }
 .atw-text-form-gray-700 {
         --tw-text-opacity: 1;
-        color: rgba(var(--wpa-color-gray-700), var(--tw-text-opacity));
+        color: rgba(var(--wpa-color-gray-700), var(--tw-text-opacity, 1));
 }
 .atw-text-gray-100 {
         --tw-text-opacity: 1;
-        color: rgb(243 244 246 / var(--tw-text-opacity));
+        color: rgb(243 244 246 / var(--tw-text-opacity, 1));
 }
 .atw-text-gray-200 {
         --tw-text-opacity: 1;
-        color: rgb(229 231 235 / var(--tw-text-opacity));
+        color: rgb(229 231 235 / var(--tw-text-opacity, 1));
 }
 .atw-text-gray-300 {
         --tw-text-opacity: 1;
-        color: rgb(209 213 219 / var(--tw-text-opacity));
+        color: rgb(209 213 219 / var(--tw-text-opacity, 1));
 }
 .atw-text-gray-400 {
         --tw-text-opacity: 1;
-        color: rgb(156 163 175 / var(--tw-text-opacity));
+        color: rgb(156 163 175 / var(--tw-text-opacity, 1));
 }
 .atw-text-gray-500 {
         --tw-text-opacity: 1;
-        color: rgb(107 114 128 / var(--tw-text-opacity));
+        color: rgb(107 114 128 / var(--tw-text-opacity, 1));
 }
 .atw-text-gray-600 {
         --tw-text-opacity: 1;
-        color: rgb(75 85 99 / var(--tw-text-opacity));
+        color: rgb(75 85 99 / var(--tw-text-opacity, 1));
 }
 .atw-text-gray-700 {
         --tw-text-opacity: 1;
-        color: rgb(55 65 81 / var(--tw-text-opacity));
+        color: rgb(55 65 81 / var(--tw-text-opacity, 1));
 }
 .atw-text-gray-800 {
         --tw-text-opacity: 1;
-        color: rgb(31 41 55 / var(--tw-text-opacity));
+        color: rgb(31 41 55 / var(--tw-text-opacity, 1));
 }
 .atw-text-gray-900 {
         --tw-text-opacity: 1;
-        color: rgb(17 24 39 / var(--tw-text-opacity));
+        color: rgb(17 24 39 / var(--tw-text-opacity, 1));
 }
 .atw-text-green-600 {
         --tw-text-opacity: 1;
-        color: rgb(22 163 74 / var(--tw-text-opacity));
+        color: rgb(22 163 74 / var(--tw-text-opacity, 1));
 }
 .atw-text-green-700 {
         --tw-text-opacity: 1;
-        color: rgb(21 128 61 / var(--tw-text-opacity));
+        color: rgb(21 128 61 / var(--tw-text-opacity, 1));
 }
 .atw-text-green-800 {
         --tw-text-opacity: 1;
-        color: rgb(22 101 52 / var(--tw-text-opacity));
+        color: rgb(22 101 52 / var(--tw-text-opacity, 1));
 }
 .atw-text-green-900 {
         --tw-text-opacity: 1;
-        color: rgb(20 83 45 / var(--tw-text-opacity));
+        color: rgb(20 83 45 / var(--tw-text-opacity, 1));
 }
 .atw-text-red-500 {
         --tw-text-opacity: 1;
-        color: rgb(239 68 68 / var(--tw-text-opacity));
+        color: rgb(239 68 68 / var(--tw-text-opacity, 1));
 }
 .atw-text-red-600 {
         --tw-text-opacity: 1;
-        color: rgb(220 38 38 / var(--tw-text-opacity));
+        color: rgb(220 38 38 / var(--tw-text-opacity, 1));
 }
 .atw-text-red-700 {
         --tw-text-opacity: 1;
-        color: rgb(185 28 28 / var(--tw-text-opacity));
+        color: rgb(185 28 28 / var(--tw-text-opacity, 1));
 }
 .atw-text-red-800 {
         --tw-text-opacity: 1;
-        color: rgb(153 27 27 / var(--tw-text-opacity));
+        color: rgb(153 27 27 / var(--tw-text-opacity, 1));
 }
 .atw-text-red-900 {
         --tw-text-opacity: 1;
-        color: rgb(127 29 29 / var(--tw-text-opacity));
+        color: rgb(127 29 29 / var(--tw-text-opacity, 1));
 }
 .atw-text-white {
         --tw-text-opacity: 1;
-        color: rgb(255 255 255 / var(--tw-text-opacity));
+        color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 .atw-text-yellow-500 {
         --tw-text-opacity: 1;
-        color: rgb(245 158 11 / var(--tw-text-opacity));
+        color: rgb(245 158 11 / var(--tw-text-opacity, 1));
 }
 .atw-text-yellow-700 {
         --tw-text-opacity: 1;
-        color: rgb(180 83 9 / var(--tw-text-opacity));
+        color: rgb(180 83 9 / var(--tw-text-opacity, 1));
 }
 .atw-underline {
         text-decoration-line: underline;
@@ -2930,19 +2924,19 @@
 }
 .atw-placeholder-form-gray-500::-moz-placeholder {
         --tw-placeholder-opacity: 1;
-        color: rgba(var(--wpa-color-gray-500), var(--tw-placeholder-opacity));
+        color: rgba(var(--wpa-color-gray-500), var(--tw-placeholder-opacity, 1));
 }
 .atw-placeholder-form-gray-500::placeholder {
         --tw-placeholder-opacity: 1;
-        color: rgba(var(--wpa-color-gray-500), var(--tw-placeholder-opacity));
+        color: rgba(var(--wpa-color-gray-500), var(--tw-placeholder-opacity, 1));
 }
 .atw-placeholder-gray-500::-moz-placeholder {
         --tw-placeholder-opacity: 1;
-        color: rgb(107 114 128 / var(--tw-placeholder-opacity));
+        color: rgb(107 114 128 / var(--tw-placeholder-opacity, 1));
 }
 .atw-placeholder-gray-500::placeholder {
         --tw-placeholder-opacity: 1;
-        color: rgb(107 114 128 / var(--tw-placeholder-opacity));
+        color: rgb(107 114 128 / var(--tw-placeholder-opacity, 1));
 }
 .atw-opacity-100 {
         opacity: 1;
@@ -2997,15 +2991,13 @@
 }
 .atw-ring-black {
         --tw-ring-opacity: 1;
-        --tw-ring-color: rgb(0 0 0 / var(--tw-ring-opacity));
+        --tw-ring-color: rgb(0 0 0 / var(--tw-ring-opacity, 1));
 }
 .atw-ring-opacity-5 {
         --tw-ring-opacity: 0.05;
 }
 .atw-transition {
-        transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
         transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-        transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-duration: 150ms;
 }
@@ -3034,18 +3026,18 @@
 /*}*/
 .hover\:atw-bg-blue-100:hover {
         --tw-bg-opacity: 1;
-        background-color: rgb(219 234 254 / var(--tw-bg-opacity));
+        background-color: rgb(219 234 254 / var(--tw-bg-opacity, 1));
 }
 .hover\:atw-bg-gray-50:hover {
         --tw-bg-opacity: 1;
-        background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+        background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
 }
 .hover\:atw-bg-none:hover {
         background-image: none;
 }
 .focus\:atw-border-primary-light:focus {
         --tw-border-opacity: 1;
-        border-color: rgba(var(--wpa-color-primary-light), var(--tw-border-opacity));
+        border-color: rgba(var(--wpa-color-primary-light), var(--tw-border-opacity, 1));
 }
 .focus\:atw-outline-none:focus {
         outline: 2px solid transparent;
@@ -3058,7 +3050,7 @@
 }
 .focus\:atw-ring-primary-light:focus {
         --tw-ring-opacity: 1;
-        --tw-ring-color: rgba(var(--wpa-color-primary-light), var(--tw-ring-opacity));
+        --tw-ring-color: rgba(var(--wpa-color-primary-light), var(--tw-ring-opacity, 1));
 }
 .focus\:atw-ring-opacity-50:focus {
         --tw-ring-opacity: 0.5;
@@ -3261,7 +3253,7 @@
         }
         .md\:atw-bg-gray-50 {
                 --tw-bg-opacity: 1;
-                background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+                background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
         }
         .md\:atw-p-3 {
                 padding: 0.75rem;
