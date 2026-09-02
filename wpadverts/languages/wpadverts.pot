@@ -6,7 +6,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-08-05 08:21+0000\n"
+"POT-Creation-Date: 2026-09-02 09:48+0000\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Contact Person"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/bank-transfer/bank-transfer.php:73, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/payments/admin/payment-history-list.php:80, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/payments/includes/admin-pages.php:714, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:66, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:336, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:346, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:960, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions.php:2751
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/bank-transfer/bank-transfer.php:73, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/payments/admin/payment-history-list.php:80, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/payments/includes/admin-pages.php:714, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:66, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:336, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:346, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:964, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions.php:2751
 msgid "Email"
 msgstr ""
 
@@ -30,7 +30,7 @@ msgstr ""
 msgid "Send Message"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/contact-form/contact-form.php:80, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/contact-form/includes/class-block-details.php:123, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/contact-form/includes/class-block-details.php:102, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:965, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions.php:2746
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/contact-form/contact-form.php:80, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/contact-form/includes/class-block-details.php:123, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/contact-form/includes/class-block-details.php:102, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:969, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions.php:2746
 msgid "Phone"
 msgstr ""
 
@@ -1049,11 +1049,11 @@ msgstr ""
 msgid "Items: <strong>%d</strong>. Revenue <strong>%s</strong>."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/payments/admin/pricing-list.php:48, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/payments/includes/admin-pages.php:819, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/styling/includes/admin-pages.php:84, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:168, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:40, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:140, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/single-data-table/index.php:152, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-rest-blocks.php:161, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-types-admin.php:616, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:96, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/gallery.php:460, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:110
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/payments/admin/pricing-list.php:48, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/payments/includes/admin-pages.php:819, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/styling/includes/admin-pages.php:84, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:166, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:40, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:129, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/single-data-table/index.php:152, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-rest-blocks.php:161, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-types-admin.php:616, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:96, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/gallery.php:460, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:110
 msgid "Title"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/payments/admin/pricing-list.php:50, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/payments/includes/admin-pages.php:834, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:161, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:33, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:133, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/single-data-table/index.php:222, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/single-data-table/index.php:243, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-rest-blocks.php:201, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-rest-blocks.php:247, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-widget-ads.php:138, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:142, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:103
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/payments/admin/pricing-list.php:50, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/payments/includes/admin-pages.php:834, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:159, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:33, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:122, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/single-data-table/index.php:222, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/single-data-table/index.php:243, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-rest-blocks.php:201, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-rest-blocks.php:247, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-widget-ads.php:138, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:142, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:103
 msgid "Price"
 msgstr ""
 
@@ -1678,43 +1678,43 @@ msgstr ""
 msgid "Location"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:154, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:183, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:184, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:26, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:121, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:122, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:126, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:149, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:150, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-widget-ads.php:128, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:96, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:119, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:120
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:152, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:181, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:182, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:26, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:121, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:122, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:115, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:138, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:139, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-widget-ads.php:128, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:96, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:119, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:120
 msgid "Publish Date"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:156, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:184, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:28, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:122, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:128, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:150, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:98, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:120
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:154, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:182, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:28, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:122, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:117, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:139, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:98, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:120
 msgid "Newest First"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:157, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:29, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:129, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:99
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:155, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:29, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:118, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:99
 msgid "Oldest First"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:163, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:35, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:135, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:105
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:161, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:35, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:124, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:105
 msgid "Cheapest First"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:164, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:36, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:136, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:106
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:162, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:36, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:125, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:106
 msgid "Most Expensive First"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:170, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:42, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:142, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:112
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:168, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:42, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:131, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:112
 msgid "From A to Z"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:171, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:43, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:143, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:113
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:169, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:43, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:132, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:113
 msgid "From Z to A"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:175, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-widget-ads.php:143
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:173, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-widget-ads.php:143
 msgid "Random"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:177
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:175
 msgid "Random Order"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:184, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:216, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:122, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:152, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:150, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:180, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:120, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:150
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:182, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/index.php:214, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:122, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/class-manage-engine.php:152, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:139, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/search/index.php:169, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:120, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/shortcodes.php:150
 msgid "Sort By: %s - %s"
 msgstr ""
 
@@ -1858,7 +1858,7 @@ msgstr ""
 msgid "no data selected!"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/categories/templates/categories-all.php:43, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-widget-categories.php:326, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-widget-categories.php:393, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/templates/categories-all.php:53, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/templates/categories-top.php:24
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/categories/templates/categories-all.php:49, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-widget-categories.php:326, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-widget-categories.php:393, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/templates/categories-all.php:53, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/templates/categories-top.php:24
 msgid "No categories found."
 msgstr ""
 
@@ -1866,27 +1866,27 @@ msgstr ""
 msgid "Published %1$s - %2$s ago"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/templates/list.php:86
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/templates/list.php:89
 msgid "Icon for list view"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/templates/list.php:89
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/templates/list.php:92
 msgid "Icon for grid view"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/templates/list.php:101, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/templates/manage-list.php:103, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-widget-ads.php:122
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/templates/list.php:104, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/templates/manage-list.php:106, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-widget-ads.php:122
 msgid "Sort By"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/templates/list.php:139, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/templates/manage-list.php:141
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/templates/list.php:142, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/templates/manage-list.php:144
 msgid "results found."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/templates/list.php:161, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/templates/manage-list.php:165, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/wpadverts.php:392
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/templates/list.php:164, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/templates/manage-list.php:168, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/wpadverts.php:392
 msgid "No results found."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/templates/list.php:162
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/list/templates/list.php:165
 msgid "There aren't any results matching your search query."
 msgstr ""
 
@@ -1906,15 +1906,15 @@ msgstr ""
 msgid "Published  — %s"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/templates/manage-list.php:166
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/templates/manage-list.php:169
 msgid "You do not have any items posted yet."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/templates/manage-list.php:171
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/templates/manage-list.php:174
 msgid "Publish your first Ad"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/templates/manage-list.php:175, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/publish/templates/publish-save.php:38
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/manage/templates/manage-list.php:178, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/blocks/publish/templates/publish-save.php:38
 msgid "View ads list"
 msgstr ""
 
@@ -2870,35 +2870,35 @@ msgstr ""
 msgid "Every 5 minutes"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:767, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:784
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:771, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:788
 msgid "~ no title ~"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:809
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:813
 msgid "Builtin Templates"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:815
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:819
 msgid "Default Block Template"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:820
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:824
 msgid "Template with a sidebar"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:830
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:834
 msgid "Draft Templates"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:844
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:848
 msgid "WP Templates"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:928
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:932
 msgid "Show Contact Info"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:941
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:945
 msgid "Reveal Contact Info"
 msgstr ""
 
