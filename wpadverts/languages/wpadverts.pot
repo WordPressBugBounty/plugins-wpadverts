@@ -6,7 +6,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-02 09:48+0000\n"
+"POT-Creation-Date: 2026-10-07 12:32+0000\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Contact Person"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/bank-transfer/bank-transfer.php:73, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/payments/admin/payment-history-list.php:80, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/payments/includes/admin-pages.php:714, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:66, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:336, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:346, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:964, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions.php:2751
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/bank-transfer/bank-transfer.php:73, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/payments/admin/payment-history-list.php:80, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/payments/includes/admin-pages.php:714, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:66, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:337, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:347, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:975, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions.php:2751
 msgid "Email"
 msgstr ""
 
@@ -30,7 +30,7 @@ msgstr ""
 msgid "Send Message"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/contact-form/contact-form.php:80, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/contact-form/includes/class-block-details.php:123, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/contact-form/includes/class-block-details.php:102, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:969, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions.php:2746
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/contact-form/contact-form.php:80, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/contact-form/includes/class-block-details.php:123, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/contact-form/includes/class-block-details.php:102, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:980, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions.php:2746
 msgid "Phone"
 msgstr ""
 
@@ -309,7 +309,7 @@ msgstr ""
 msgid "Types"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/core/admin/moderate.php:18, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/core/admin/options-gallery.php:18, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/core/admin/options.php:18, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/core/admin/types-edit-post.php:9, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/core/admin/types-list.php:26, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:422
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/core/admin/moderate.php:18, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/core/admin/options-gallery.php:18, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/core/admin/options.php:18, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/core/admin/types-edit-post.php:9, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/addons/core/admin/types-list.php:26, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:423
 msgid "Spam"
 msgstr ""
 
@@ -2594,11 +2594,11 @@ msgstr ""
 msgid "Cannot connect to remote server. Please try again later."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-updates-manager.php:331, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-updates-manager.php:316
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-updates-manager.php:350, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-updates-manager.php:335
 msgid "License ..."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-updates-manager.php:320
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/class-updates-manager.php:339
 msgid "Activate your License in order to enable automatic updates."
 msgstr ""
 
@@ -2698,171 +2698,171 @@ msgstr ""
 msgid "Item Information"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:169
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:170
 msgid "Keyword ..."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:181
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:182
 msgid "Location ..."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:287
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:288
 msgid "Money - converts string formatted as price to float."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:294
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:295
 msgid "URL - converts string to a valid URL (if possible)."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:301
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:302
 msgid "Integer - converts string to absolute integer."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:308
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:309
 msgid "Number - converts string to a number."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:315
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:316
 msgid "HTML - removes unsafe HTML tags and attributes."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:325
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:326
 msgid "Is Required"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:327
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:328
 msgid "Field cannot be empty."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:338
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:339
 msgid "Provided email address is invalid."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:348
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:349
 msgid "Cannot create account. User with this email address already exists."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:356
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:357
 msgid "URL"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:358
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:359
 msgid "Provided URL is invalid."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:366
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:367
 msgid "Is Integer"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:368
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:369
 msgid "Provided value is not an integer."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:376
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:377
 msgid "Is Number"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:378
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:379
 msgid "Provided value is not a number."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:386
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:387
 msgid "String Length"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:388
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:389
 msgid "Incorrect string length."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:390
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:391
 msgid "Text needs to be at least %min% characters long."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:391
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:392
 msgid "Text cannot be longer than %max% characters."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:400
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:401
 msgid "Max Choices"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:402
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:403
 msgid "You cannot select more than %max_choices% items."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:411
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:412
 msgid "Verify Choices"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:413
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:414
 msgid "One or more selected values are not available in the options list."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:424
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:425
 msgid "Provided text is invalid."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:426
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:427
 msgid "Text cannot have more than %max_links% links."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:427
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:428
 msgid "Text contains phrases that are considered SPAM."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:436
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:437
 msgid "Upload Limit"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:440
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:441
 msgid "You cannot upload more than %max% files."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:441
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:442
 msgid "You need to upload at least %min% files."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:451, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:465
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:452, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:466
 msgid "Upload Type"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:455
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:456
 msgid "The max. allowed file size is %max%."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:456
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:457
 msgid "The min. allowed file size is %min%."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:467
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:468
 msgid "This file type is not allowed."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:476
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:477
 msgid "Upload Dimensions"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:478
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:479
 msgid "The file size is incorrect."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:480
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:481
 msgid "Cannot validate uploaded image width and height."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:481
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:482
 msgid "The image min. width should be %min_width%."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:482
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:483
 msgid "The image max. width should be %max_width%."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:483
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:484
 msgid "The image min. height should be %min_height%."
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:484
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/defaults.php:485
 msgid "The image max. height should be %max_height%."
 msgstr ""
 
@@ -2870,35 +2870,35 @@ msgstr ""
 msgid "Every 5 minutes"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:771, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:788
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:782, ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:799
 msgid "~ no title ~"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:813
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:824
 msgid "Builtin Templates"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:819
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:830
 msgid "Default Block Template"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:824
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:835
 msgid "Template with a sidebar"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:834
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:845
 msgid "Draft Templates"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:848
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:859
 msgid "WP Templates"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:932
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:943
 msgid "Show Contact Info"
 msgstr ""
 
-#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:945
+#: ../../../Local/wpadverts/app/public/wp-content/plugins/wpadverts/includes/functions-blocks.php:956
 msgid "Reveal Contact Info"
 msgstr ""
 
